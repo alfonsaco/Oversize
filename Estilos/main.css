@@ -95,6 +95,10 @@ header{
     color: rgb(102, 102, 102);
     font-style: italic;
 }
+#buscador:focus{
+    border: 1px rgb(0, 0, 0) solid;
+    outline: 0;
+}
 .buscador-boton{
     background-color: rgb(156, 156, 156);
     border: 0;
