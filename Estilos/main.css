@@ -124,3 +124,14 @@ header{
     opacity: 1;
     display: flex;
 }
+
+@media screen and (max-width: 1000px) {
+    .header-buscador form{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header-buscador form{
+        width: 70%;
+    }
+}
