@@ -1,13 +1,13 @@
 body{
     margin: 0;
     background-color: #eeeeee;
-    height: 100vh; /*Estilo temporal-------------------------------------------------------------------------------------------------*/
 }
 
 
-/*ESTTILOS PARA EL HEADER*/
+/*ESTILOS PARA EL HEADER*/
 header{
     background-color: #fff;
+    height: 60px;
 }
 /*PARTE SUPERIOR*/  /*PARTE SUPERIOR*/  /*PARTE SUPERIOR*/  /*PARTE SUPERIOR*/
 /*PARTE SUPERIOR del header. Formada por: Logo + Iconos + Secciones*/
@@ -15,11 +15,13 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 25px;
     height: 60px;
+    width: 100%;
+    background-color: #fff;
     border-bottom: rgb(207, 207, 207) solid 1px;
+    position: fixed;
+    z-index: 100;
 }
-
 /*Barritas*/
 .header-barritas div{
     background-color: #000;
@@ -27,6 +29,7 @@ header{
     width: 20px;
     margin: 4px 0;
     transition-duration: 0.2s;
+    margin-left: 25px;
 }
 /*Hover*/
     .header-barritas:hover div:first-child{
@@ -47,16 +50,18 @@ header{
 .header-logo img{
     width: 130px;
 }
-
 /*Sección de compra y búsqueda*/
-.header-compra{
+.header-compra {
+    margin-right: 25px;
     display: flex;
-    cursor: pointer;
+    flex-direction: row;
 }
-#icono-buscar{
-    position: relative;
-    right: 15px;
-    cursor: pointer;
+.header-compra a {
+    display: flex;
+    justify-content: center;
+}
+.header-compra a:first-child {
+    margin-right: 5px;
 }
 
 
@@ -70,16 +75,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    transform: translateY(-50px);
-    display: none;
+    transform: translateY(-250px);
+    transition: 0.4s ease;
 }
-.icono-buscar:active .header-buscador{
-    background-color: red;
-}
-
-
-
 .header-buscador form{
     display: flex;
     width: 30%;
@@ -110,21 +108,17 @@ header{
     align-items: center;
     cursor: pointer;
     position: absolute;
-
 }
 .fa-search{
     color: #ffffff;
     position: relative;
     font-size: 1.2em;
 }
-
-
+/*Clase para crear la animación de aparecer buscador en JavaScript*/
 .mover-buscador{
-    transform: translateY(0px);
-    opacity: 1;
-    display: flex;
+    transform: translateY(60px);
 }
-
+/*Media Querys*/
 @media screen and (max-width: 1000px) {
     .header-buscador form{
         width: 40%;
@@ -134,4 +128,12 @@ header{
     .header-buscador form{
         width: 70%;
     }
+}
+/*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ 
+/*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ 
+
+
+/*ESTILOS DEL MAIN*/
+main {
+    height: 1000px;
 }
