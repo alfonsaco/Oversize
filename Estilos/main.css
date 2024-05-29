@@ -23,7 +23,7 @@ header{
     z-index: 100;
 }
 /*Barritas*/
-.header-barritas div{
+#header-barritas div{
     background-color: #000;
     height: 2px;
     width: 20px;
@@ -32,17 +32,17 @@ header{
     margin-left: 25px;
 }
 /*Hover*/
-    .header-barritas:hover div:first-child{
+    #header-barritas:hover div:first-child{
         transform: translateY(2px);
     }
-    .header-barritas:hover div:last-child{
+    #header-barritas:hover div:last-child{
         transform: translateY(-2px);
     }
 /*Active*/
-    .header-barritas:active div:first-child{
+    #header-barritas:active div:first-child{
         transform: translateY(-4px);
     }
-    .header-barritas:active div:last-child{
+    #header-barritas:active div:last-child{
         transform: translateY(4px);
     }
 
@@ -61,7 +61,7 @@ header{
     justify-content: center;
 }
 .header-compra a:first-child {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 
@@ -133,7 +133,72 @@ header{
 /*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ 
 
 
-/*ESTILOS DEL MAIN*/
+/*ESTILOS DEL NAV*/
+#nav-desplegable {
+    position: fixed;
+    left: -400px;
+    transition: 0.3s ease;
+    background-color: #fff;
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid rgb(207, 207, 207);
+}
+#nav-desplegable.mostrar-nav {
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+/*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/
+/*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/
 main {
     height: 1000px;
+}
+
+
+
+
+/*ESTILOS DEL FOOTER*/ /*ESTILOS DEL FOOTER*/ /*ESTILOS DEL FOOTER*/ /*ESTILOS DEL FOOTER*/ 
+/*ESTILOS DEL FOOTER*/ /*ESTILOS DEL FOOTER*/ /*ESTILOS DEL FOOTER*/ /*ESTILOS DEL FOOTER*/ 
+.footer-redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    font-size: 1.2em;
+    margin: 40px 0;
+}
+/*Parte del Copyrigth del footer*/
+.footer-copyright {
+    background-color: #181818;
+    color: #e9e9e9;
+    font-family: 'Poppins';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+.footer-copyright-movimiento {
+    display: flex;
+    user-select: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-copyright-movimiento div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-copyright-movimiento p {
+    margin-right: 200px;
+}
+.footer-copyright-movimiento p span {
+    font-weight: lighter; 
 }
