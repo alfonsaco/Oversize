@@ -183,22 +183,21 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 1.2em;
+    overflow: hidden;
 }
-.footer-copyright-movimiento {
-    display: flex;
-    user-select: none;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.footer-copyright-movimiento div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer-copyright-movimiento p {
+.footer-copyright p {
     margin-right: 200px;
+    white-space: nowrap;
+    animation: moverLetra 6s linear infinite;
 }
-.footer-copyright-movimiento p span {
+.footer-copyright p span {
     font-weight: lighter; 
+}
+@keyframes moverLetra {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-112%);
+    }
 }
