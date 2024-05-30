@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    background-color: #eeeeee;
+    font-family: 'Poppins';
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*ESTILOS PARA EL HEADER*/ /*ESTILOS PARA EL HEADER*/ /*ESTILOS PARA EL HEADER*/
+/*ESTILOS PARA EL HEADER*/ /*ESTILOS PARA EL HEADER*/ /*ESTILOS PARA EL HEADER*/
+header{
+    background-color: #fff;
+    height: 60px;
+}
+/*PARTE SUPERIOR*/  /*PARTE SUPERIOR*/  /*PARTE SUPERIOR*/  /*PARTE SUPERIOR*/
+/*PARTE SUPERIOR del header. Formada por: Logo + Iconos + Secciones*/
+.header-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: rgb(207, 207, 207) solid 1px;
+    position: fixed;
+    z-index: 1000;
+}
+/*Barritas*/
+#header-barritas div{
+    background-color: #000;
+    height: 2px;
+    width: 20px;
+    margin: 4px 0;
+    transition-duration: 0.2s;
+    margin-left: 25px;
+}
+/*Hover*/
+    #header-barritas:hover div:first-child{
+        transform: translateY(2px);
+    }
+    #header-barritas:hover div:last-child{
+        transform: translateY(-2px);
+    }
+/*Active*/
+    #header-barritas:active div:first-child{
+        transform: translateY(-4px);
+    }
+    #header-barritas:active div:last-child{
+        transform: translateY(4px);
+    }
+
+/*logo de Oversize Inc.*/
+.header-logo img{
+    width: 130px;
+}
+/*Sección de compra y búsqueda*/
+.header-compra {
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.header-compra a {
+    display: flex;
+    justify-content: center;
+}
+.header-compra a:first-child {
+    margin-right: 10px;
+}
+
+
+/*PARTE INFERIOR*/  /*PARTE INFERIOR*/  /*PARTE INFERIOR*/  /*PARTE INFERIOR*/
+/*PARTE INFERIOR que contiene el buscador*/
+.header-buscador{
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    border-bottom: rgb(207, 207, 207) solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-250px);
+    transition: 0.4s ease;
+}
+.header-buscador form{
+    display: flex;
+    width: 30%;
+    height: 70%;
+    justify-content: right;
+}
+#buscador{
+    border-radius: 25px;
+    border: 1px solid rgb(160, 160, 160);
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    color: rgb(102, 102, 102);
+    font-family: 'Poppins';
+    font-style: italic;
+}
+#buscador:focus{
+    border: 1px rgb(0, 0, 0) solid;
+    outline: 0;
+}
+.buscador-boton{
+    background-color: rgb(156, 156, 156);
+    border: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+}
+.fa-search{
+    color: #ffffff;
+    position: relative;
+    font-size: 1.2em;
+}
+/*Clase para crear la animación de aparecer buscador en JavaScript*/
+.mover-buscador{
+    transform: translateY(60px);
+}
+/*Media Querys*/
+@media screen and (max-width: 1000px) {
+    .header-buscador form{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header-buscador form{
+        width: 70%;
+    }
+}
+/*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ 
+/*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ 
+
+
+/*ESTILOS DEL NAV*/ /*ESTILOS DEL NAV*/ /*ESTILOS DEL NAV*/ /*ESTILOS DEL NAV*/ /*ESTILOS DEL NAV*/
+/*ESTILOS DEL NAV*/ /*ESTILOS DEL NAV*/ /*ESTILOS DEL NAV*/ /*ESTILOS DEL NAV*/ /*ESTILOS DEL NAV*/
+#nav-desplegable {
+    position: fixed;
+    left: -400px;
+    transition: 0.5s ease;
+    background-color: #fff;
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid rgb(207, 207, 207);
+    z-index: 5;
+    visibility: hidden;
+}
+#nav-desplegable.mostrar-nav {
+    left: 0px;
+    visibility: visible;
+}
+/*FIN DE LOS ESTILOS DEL NAV*/ /*FIN DE LOS ESTILOS DEL NAV*/ /*FIN DE LOS ESTILOS DEL NAV*/ 
+/*FIN DE LOS ESTILOS DEL NAV*/ /*FIN DE LOS ESTILOS DEL NAV*/ /*FIN DE LOS ESTILOS DEL NAV*/ 
+
+
+/*ESTILOS DEL FOOTER*/ /*ESTILOS DEL FOOTER*/ /*ESTILOS DEL FOOTER*/ /*ESTILOS DEL FOOTER*/ 
+/*ESTILOS DEL FOOTER*/ /*ESTILOS DEL FOOTER*/ /*ESTILOS DEL FOOTER*/ /*ESTILOS DEL FOOTER*/ 
+/*Parte del footer de las redes sociales*/
+.footer-redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    font-size: 1.2em;
+    margin: 30px 0;
+}
+.footer-redes-sociales a {
+    color: #000;
+}
+/*Parte del footer de la suscripcion*/
+.footer-suscripcion {
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px rgb(145, 145, 145);
+}
+.footer-suscripcion > div {
+    margin: 50px 0;
+}
+.footer-suscripcion p {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.footer-suscripcion form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-suscripcion [type="email"] {
+    height: 40px;
+    font-style: italic;
+    font-family: 'Poppins';
+    padding-left: 10px;
+}
+.footer-suscripcion [type="submit"] {
+    background-color: transparent;
+    border: solid 2px rgb(168, 168, 168);
+    font-family: 'Poppins';
+    color: rgb(168, 168, 168);
+    font-weight: bold;
+    height: 40px;
+}
+.footer-suscripcion [type="submit"]:active {
+    color: rgb(236, 236, 236);
+    border: solid 2px rgb(236, 236, 236);
+}
+
+/*Parte de las secciones del footer*/
+.footer-secciones {
+    background-color: rgb(59, 59, 59);
+    border-bottom: solid 1px rgb(145, 145, 145);
+}
+.footer-secciones ul {
+    list-style: none;
+}
+
+/*Parte del Copyrigth del footer*/
+.footer-copyright {
+    background-color: #181818;
+    color: #e9e9e9;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    overflow: hidden;
+}
+.footer-copyright p {
+    margin: 20px 0;
+    margin-right: 200px;
+    white-space: nowrap;
+    animation: moverLetra 6s linear infinite;
+    user-select: none;
+}
+.footer-copyright p span {
+    font-weight: lighter; 
+}
+@keyframes moverLetra {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-112%);
+    }
+}
