@@ -15,7 +15,7 @@
     border-radius: 100%;
     height: 14px;
     width: 14px;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 }
 .cambiar-tema {
     display: flex;
@@ -35,7 +35,31 @@
 }
 
 /* ESTILOS DARK MODE */
-/*.dark-mode {
+.dark-mode {
     background-color: #292929;
     color: #d6d6d6;
+}
+.dark-mode .header-principal {
+    background-color: #1d1d1d;
+}
+.dark-mode .header-buscador {
+    background-color: #292929;
+}
+.dark-mode .buscador-boton {
+    background-color: #707070;
+}
+.dark-mode #buscador {
+    background-color: #d3d3d3;
+}
+.dark-mode #nav-desplegable {
+    background-color: #1d1d1d;
+}
+.dark-mode .footer-redes-sociales i {
+    color: #d6d6d6;
+}
+.dark-mode .header-compra img {
+    filter: invert();
+}
+.dark-mode #header-barritas div {
+    background-color: #d6d6d6;
 }

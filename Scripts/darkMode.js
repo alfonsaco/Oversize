@@ -14,5 +14,5 @@ boton.addEventListener("click", function() {
         texto.textContent="Modo oscuro";
         valor=true;
     }
-
+    document.body.classList.toggle("dark-mode");
 });

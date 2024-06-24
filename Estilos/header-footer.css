@@ -145,7 +145,7 @@ header{
 #nav-desplegable {
     position: fixed;
     left: -400px;
-    transition: 0.5s ease;
+    transition: left 0.5s ease, visibility 0.5s ease;
     background-color: #fff;
     width: 20%;
     height: 100%;
