@@ -56,6 +56,9 @@ header{
 .header-logo img{
     width: 130px;
 }
+.logo-blanco {
+    display: none;
+}
 /*Sección de compra y búsqueda*/
 .header-compra {
     margin-right: 25px;

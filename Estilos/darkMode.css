@@ -42,6 +42,13 @@
 .dark-mode .header-principal {
     background-color: #1d1d1d;
 }
+.dark-mode .logo-blanco {
+    display: block;
+    transform: translateY(-4px);
+}
+.dark-mode .logo-negro {
+    display: none;
+}
 .dark-mode .header-buscador {
     background-color: #292929;
 }
