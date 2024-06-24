@@ -1,0 +1,41 @@
+/* ESTILOS DEL BOTÓN */
+.boton-cambiar-tema {
+    width: 40px;
+    height: 20px;
+    border: solid 2px #000;
+    border-radius: 40px;
+    padding: 2px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.boton-cambiar-tema > div {
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    transition: 0.5s ease;
+}
+.cambiar-tema {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9em;
+}
+
+/* ESTILOS COLOR BOTÓN AL PULSAR */
+.boton-cambiar-tema > div.mover-bola {
+    transform: translateX(18px);
+    background-color: #d6d6d6;
+}
+.boton-cambiar-tema.cambiar-color {
+    background-color: #292929;
+    border-color: #d6d6d6;
+}
+
+/* ESTILOS DARK MODE */
+/*.dark-mode {
+    background-color: #292929;
+    color: #d6d6d6;
+}
