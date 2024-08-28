@@ -22,6 +22,8 @@
     align-items: center;
     gap: 8px;
     font-size: 0.9em;
+    position: relative;
+    bottom: 60px;
 }
 
 /* ESTILOS COLOR BOTÓN AL PULSAR */
@@ -39,6 +41,7 @@
     background-color: #292929;
     color: #d6d6d6;
 }
+/* Header */
 .dark-mode .header-principal {
     background-color: #1d1d1d;
 }
@@ -58,15 +61,22 @@
 .dark-mode #buscador {
     background-color: #d3d3d3;
 }
-.dark-mode #nav-desplegable {
-    background-color: #1d1d1d;
-}
-.dark-mode .footer-redes-sociales i {
-    color: #d6d6d6;
-}
 .dark-mode .header-compra img {
     filter: invert();
 }
 .dark-mode #header-barritas div {
     background-color: #d6d6d6;
+}
+
+/* Nav */
+.dark-mode #nav-desplegable {
+    background-color: #1d1d1d;
+}
+.dark-mode .categorias a {
+    color: #d3d3d3;
+}
+
+/* Footer */
+.dark-mode .footer-redes-sociales i {
+    color: #d6d6d6;
 }

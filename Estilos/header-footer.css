@@ -41,17 +41,17 @@ header{
     cursor: pointer;
 }
 /*Hover*/
-    #header-barritas:hover div:first-child{
+    #header-barritas:hover div:first-child {
         transform: translateY(2px);
     }
-    #header-barritas:hover div:last-child{
+    #header-barritas:hover div:last-child {
         transform: translateY(-2px);
     }
 /*Active*/
-    #header-barritas:active div:first-child{
+    #header-barritas:active div:first-child {
         transform: translateY(-4px);
     }
-    #header-barritas:active div:last-child{
+    #header-barritas:active div:last-child {
         transform: translateY(4px);
     }
 
@@ -93,6 +93,7 @@ header{
     align-items: center;
     transform: translateY(-250px);
     transition: 0.4s ease;
+    position: fixed;
 }
 .header-buscador form{
     display: flex;
@@ -162,11 +163,28 @@ header{
     border-right: 1px solid rgb(207, 207, 207);
     z-index: 5;
     visibility: hidden;
-    padding: 30px 40px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #nav-desplegable.mostrar-nav {
     left: 0px;
     visibility: visible;
+}
+/* Categorías del nav */
+.categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.categorias a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.1s ease;
+}
+.categorias a:hover {
+    font-weight: bold;
 }
 /*FIN DE LOS ESTILOS DEL NAV*/ /*FIN DE LOS ESTILOS DEL NAV*/ /*FIN DE LOS ESTILOS DEL NAV*/ 
 /*FIN DE LOS ESTILOS DEL NAV*/ /*FIN DE LOS ESTILOS DEL NAV*/ /*FIN DE LOS ESTILOS DEL NAV*/ 
@@ -216,6 +234,9 @@ header{
     font-family: 'Poppins';
     padding-left: 10px;
 }
+.footer-suscripcion [type="email"]:focus {
+    outline: none;
+}
 .footer-suscripcion [type="submit"] {
     background-color: transparent;
     border: solid 2px rgb(168, 168, 168);
@@ -223,6 +244,7 @@ header{
     color: rgb(168, 168, 168);
     font-weight: bold;
     height: 40px;
+    cursor: pointer;
 }
 .footer-suscripcion [type="submit"]:active {
     color: rgb(236, 236, 236);
