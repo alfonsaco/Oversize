@@ -31,6 +31,9 @@ header{
     z-index: 1000;
 }
 /*Barritas*/
+#header-barritas {
+    cursor: pointer;
+}
 #header-barritas div{
     background-color: #000;
     height: 2px;
@@ -38,7 +41,6 @@ header{
     margin: 4px 0;
     transition-duration: 0.2s;
     margin-left: 25px;
-    cursor: pointer;
 }
 /*Hover*/
     #header-barritas:hover div:first-child {
@@ -255,9 +257,31 @@ header{
 .footer-secciones {
     background-color: rgb(59, 59, 59);
     border-bottom: solid 1px rgb(145, 145, 145);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    font-size: 0.95em;
+}
+.footer-secciones > div {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
 .footer-secciones ul {
     list-style: none;
+}
+.footer-secciones ul li span {
+    font-weight: bold;
+    color: #eee;
+}
+.footer-secciones ul li a {
+    font-size: 0.8em;
+    color: #eee;
+    text-decoration: none;
 }
 
 /*Parte del Copyrigth del footer*/
