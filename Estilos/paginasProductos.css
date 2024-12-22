@@ -3,10 +3,13 @@ main {
     flex-direction: column; 
     justify-content: flex-start;
     min-height: 100vh;
+    background-color: #fafafa;
+    padding: 0% 5%;
 }
-
 h2 {
-    text-align: center;
+    text-align: left;
+    color: #292929;
+    margin-top: 20px;
 }
 
 /* CARRUSEL CON LOS PRODUCTOS */
@@ -17,15 +20,15 @@ h2 {
     justify-content: center;
     align-content: center;
     grid-template-rows: 1fr;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    background-color: lightblue;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    background-color: transparent;
 }
 .contenedor-productos a {
     color: #000;
     text-decoration: none;
 }
 .producto {
-    background-color: #FFF;
+    background-color: #fafafa;
     display: flex;
     justify-content: center;
     align-items: center;

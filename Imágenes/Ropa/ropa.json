@@ -1,9 +1,64 @@
 [
     {
-        "id": 1,
         "nombre": "Camiseta negra Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-negra.png",
+        "descripcion": "Camiseta negra Oversize chulísima",
+        "tipo": "camiseta"
+    },
+    {
+        "nombre": "Camiseta negra Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/camiseta-blanca.png",
+        "descripcion": "Camiseta negra Oversize chulísima",
+        "tipo": "camiseta"
+    },
+    {
+        "nombre": "Camiseta negra Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/camiseta-azul.png",
+        "descripcion": "Camiseta negra Oversize chulísima",
+        "tipo": "camiseta"
+    },
+    {
+        "nombre": "Camiseta negra Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/camiseta-beige.png",
+        "descripcion": "Camiseta negra Oversize chulísima",
+        "tipo": "camiseta"
+    },
+    {
+        "nombre": "Camiseta negra Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/camiseta-chicle.png",
+        "descripcion": "Camiseta negra Oversize chulísima",
+        "tipo": "camiseta"
+    },
+    {
+        "nombre": "Camiseta negra Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/camiseta-chocolate.png",
+        "descripcion": "Camiseta negra Oversize chulísima",
+        "tipo": "camiseta"
+    },
+    {
+        "nombre": "Camiseta negra Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/camiseta-gris.png",
+        "descripcion": "Camiseta negra Oversize chulísima",
+        "tipo": "camiseta"
+    },
+    {
+        "nombre": "Camiseta negra Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/camiseta-pistacho.png",
+        "descripcion": "Camiseta negra Oversize chulísima",
+        "tipo": "camiseta"
+    },
+    {
+        "nombre": "Camiseta negra Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/camiseta-roja.png",
         "descripcion": "Camiseta negra Oversize chulísima",
         "tipo": "camiseta"
     }
