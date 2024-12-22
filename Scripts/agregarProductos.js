@@ -1,9 +1,9 @@
 window.addEventListener("DOMContentLoaded", function() {
-    const contenedorRopa=document.querySelector(".carrusel-productos");
+    const contenedorRopa=document.querySelector(".contenedor-productos");
 
     contenedorRopa.innerHTML="";
     
-    fetch("./Imágenes/Ropa/ropa.json").then(response => response.json()).then(data => {
+    fetch("../Imágenes/Ropa/ropa.json").then(response => response.json()).then(data => {
         data.forEach(producto => {
             if(producto.carrusel) {
                 contenido=`<div class="producto">

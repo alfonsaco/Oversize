@@ -9,30 +9,3 @@ main {
 }
 
 
-/* CARRUSEL CON LOS PRODUCTOS */
-.carrusel-productos {
-    width: 100%;
-    height: 350px;    
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(6, 1fr);
-    background-color: lightblue;
-}
-.producto {
-    background-color: #FFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 1/1;
-}
-.producto img {
-    width: 70%;
-    height: 70%;
-    object-fit: cover;
-}
