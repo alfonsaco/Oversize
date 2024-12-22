@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "nombre": "Camiseta negra Oversize",
+        "precio": 19.99,
+        "ruta": "camiseta-negra.png",
+        "descripcion": "Camiseta negra Oversize chulísima"
+    }
+]

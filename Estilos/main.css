@@ -1,9 +1,38 @@
 /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/
 /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/ /*ESTILOS DEL MAIN*/
 main {
-    height: 1000px;
+    height: 100%;
 }
 
 .imagen-rebajas {
     width: 100%;
+}
+
+
+/* CARRUSEL CON LOS PRODUCTOS */
+.carrusel-productos {
+    width: 100%;
+    height: 350px;    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 200px;
+    grid-template-columns: repeat(200px, 6);
+    background-color: lightblue;
+    padding: 20px;
+}
+.producto {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+.producto img {
+    width: 70%;
+    height: 70%;
 }
