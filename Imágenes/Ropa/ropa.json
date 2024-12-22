@@ -3,7 +3,32 @@
         "id": 1,
         "nombre": "Camiseta negra Oversize",
         "precio": 19.99,
-        "ruta": "camiseta-negra.png",
-        "descripcion": "Camiseta negra Oversize chulísima"
+        "ruta": "./Imágenes/Ropa/camiseta-negra.png",
+        "descripcion": "Camiseta negra Oversize chulísima",
+        "carrusel": true
+    },
+    {
+        "id": 1,
+        "nombre": "Camiseta negra Oversize",
+        "precio": 19.99,
+        "ruta": "./Imágenes/Ropa/camiseta-negra.png",
+        "descripcion": "Camiseta negra Oversize chulísima",
+        "carrusel": true
+    },
+    {
+        "id": 1,
+        "nombre": "Camiseta negra Oversize",
+        "precio": 19.99,
+        "ruta": "./Imágenes/Ropa/camiseta-negra.png",
+        "descripcion": "Camiseta negra Oversize chulísima",
+        "carrusel": true
+    },
+    {
+        "id": 1,
+        "nombre": "Camiseta negra Oversize",
+        "precio": 19.99,
+        "ruta": "./Imágenes/Ropa/camiseta-negra.png",
+        "descripcion": "Camiseta negra Oversize chulísima",
+        "carrusel": true
     }
 ]

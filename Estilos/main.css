@@ -15,11 +15,10 @@ main {
     height: 350px;    
     display: grid;
     justify-content: center;
-    align-items: center;
-    grid-template-rows: 200px;
-    grid-template-columns: repeat(200px, 6);
+    align-content: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(6, 1fr);
     background-color: lightblue;
-    padding: 20px;
 }
 .producto {
     background-color: #FFF;
@@ -35,4 +34,5 @@ main {
 .producto img {
     width: 70%;
     height: 70%;
+    object-fit: cover;
 }
