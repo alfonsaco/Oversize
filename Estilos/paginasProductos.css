@@ -1,3 +1,7 @@
+/* ESTE CSS SE USARÁ EN TODAS LAS PÁGINAS QUE VAYAN A MOSTRAR PRODUCTOS 
+   EJEMPLO: camisetas.html, polos.html, sudaderas.html 
+   
+   Son los estilos para el JavaScript "agregarProductos.js"           */
 main {
     display: flex;
     flex-direction: column; 
@@ -12,7 +16,7 @@ h2 {
     margin-top: 20px;
 }
 
-/* CARRUSEL CON LOS PRODUCTOS */
+/* CONTENEDOR CON LOS PRODUCTOS */
 .contenedor-productos {
     width: 100%;
     height: auto;    

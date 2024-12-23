@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "nombre": "Camiseta negra Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-negra.png",
@@ -7,56 +8,64 @@
         "tipo": "camiseta"
     },
     {
-        "nombre": "Camiseta negra Oversize",
+        "id": 2,
+        "nombre": "Camiseta blanca Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-blanca.png",
         "descripcion": "Camiseta negra Oversize chulísima",
         "tipo": "camiseta"
     },
     {
-        "nombre": "Camiseta negra Oversize",
+        "id": 3,
+        "nombre": "Camiseta azul Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-azul.png",
         "descripcion": "Camiseta negra Oversize chulísima",
         "tipo": "camiseta"
     },
     {
-        "nombre": "Camiseta negra Oversize",
+        "id": 4,
+        "nombre": "Camiseta beige Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-beige.png",
         "descripcion": "Camiseta negra Oversize chulísima",
         "tipo": "camiseta"
     },
     {
-        "nombre": "Camiseta negra Oversize",
+        "id": 5,
+        "nombre": "Camiseta chicle Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-chicle.png",
         "descripcion": "Camiseta negra Oversize chulísima",
         "tipo": "camiseta"
     },
     {
-        "nombre": "Camiseta negra Oversize",
+        "id": 6,
+        "nombre": "Camiseta chocolate Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-chocolate.png",
         "descripcion": "Camiseta negra Oversize chulísima",
         "tipo": "camiseta"
     },
     {
-        "nombre": "Camiseta negra Oversize",
+        "id": 7,
+        "nombre": "Camiseta gris Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-gris.png",
         "descripcion": "Camiseta negra Oversize chulísima",
         "tipo": "camiseta"
     },
     {
-        "nombre": "Camiseta negra Oversize",
+        "id": 8,
+        "nombre": "Camiseta pistacho Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-pistacho.png",
         "descripcion": "Camiseta negra Oversize chulísima",
         "tipo": "camiseta"
     },
     {
-        "nombre": "Camiseta negra Oversize",
+        "id": 9,
+        "nombre": "Camiseta roja Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-roja.png",
         "descripcion": "Camiseta negra Oversize chulísima",
