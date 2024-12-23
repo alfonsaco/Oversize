@@ -15,13 +15,12 @@ window.addEventListener("DOMContentLoaded", function () {
         const tipoDeProducto=data.filter(producto => producto.tipo == tipoProducto);
         tipoDeProducto.forEach(producto => {        
             contenido=`<div class="producto">
-                    <a href="compraProducto.html?id=${producto.id}">
-                        <img src="${producto.ruta}" alt="">
-                        <h4>${producto.nombre}</h4>
-                        <p>${producto.descripcion}</p>
-                        <p>${producto.precio}€</p>
-                    <a>
-                </div>`;
+                            <a href="compraProducto.html?id=${producto.id}">
+                                <img src="${producto.ruta}" alt="${producto.descripcion}">
+                                <h4 class="nombre-producto">${producto.nombre}</h4>
+                                <p>${producto.precio}€</p>
+                            <a>
+                        </div>`;
             contenedorRopa.innerHTML+=contenido;
         });
     }).catch(error => console.error("No se pudieron cargar los productos. ERROR: "+error));
