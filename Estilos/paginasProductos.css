@@ -33,6 +33,7 @@ h2 {
 }
 .producto {
     background-color: #fafafa;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +57,33 @@ h2 {
     height: auto;
     object-fit: cover;
     aspect-ratio: 1/1;
+    transition: 0.2s ease;
 }
 .nombre-producto {
     margin-top: 0px;
+}
+/* EFECTOS DE HOVER DEL PRODCUTO */
+.producto:hover img {
+    border: 1px solid #a1a1a1;
+}
+.producto-color {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid #444444;
+}
+.productos-datos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-heart {
+    font-size: 1.6em;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.fa-heart.fa-solid {
+    color: rgb(212, 63, 63);
+    display: none;
 }

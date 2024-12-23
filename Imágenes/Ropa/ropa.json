@@ -5,7 +5,8 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-negra.png",
         "descripcion": "Camiseta negra Oversize chulísima",
-        "tipo": "camiseta"
+        "tipo": "camiseta",
+        "color": "#000"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-blanca.png",
         "descripcion": "Camiseta negra Oversize chulísima",
-        "tipo": "camiseta"
+        "tipo": "camiseta",
+        "color": "#FFF"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-azul.png",
         "descripcion": "Camiseta negra Oversize chulísima",
-        "tipo": "camiseta"
+        "tipo": "camiseta",
+        "color": "#3E629D"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-beige.png",
         "descripcion": "Camiseta negra Oversize chulísima",
-        "tipo": "camiseta"
+        "tipo": "camiseta",
+        "color": "#EFE0C9"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-chicle.png",
         "descripcion": "Camiseta negra Oversize chulísima",
-        "tipo": "camiseta"
+        "tipo": "camiseta",
+        "color": "#BC7C94"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-chocolate.png",
         "descripcion": "Camiseta negra Oversize chulísima",
-        "tipo": "camiseta"
+        "tipo": "camiseta",
+        "color": "#6C5854"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-gris.png",
         "descripcion": "Camiseta negra Oversize chulísima",
-        "tipo": "camiseta"
+        "tipo": "camiseta",
+        "color": "#B1B1B1"
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-pistacho.png",
         "descripcion": "Camiseta negra Oversize chulísima",
-        "tipo": "camiseta"
+        "tipo": "camiseta",
+        "color": "#93AE9B"
     },
     {
         "id": 9,
@@ -69,6 +77,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-roja.png",
         "descripcion": "Camiseta negra Oversize chulísima",
-        "tipo": "camiseta"
+        "tipo": "camiseta",
+        "color": "#F53434"
     }
 ]
