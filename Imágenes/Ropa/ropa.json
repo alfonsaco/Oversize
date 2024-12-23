@@ -4,7 +4,8 @@
         "nombre": "Camiseta negra Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-negra.png",
-        "descripcion": "Camiseta negra Oversize chulísima",
+        "descripcion": "Camiseta negra Oversize de estilo moderno. Perfecta para un look casual o combinar con prendas más elegantes. Hecha con materiales de alta calidad para mayor durabilidad.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
         "tipo": "camiseta",
         "color": "#000"
     },
@@ -13,7 +14,8 @@
         "nombre": "Camiseta blanca Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-blanca.png",
-        "descripcion": "Camiseta negra Oversize chulísima",
+        "descripcion": "Camiseta blanca Oversize de estilo moderno. Ideal para climas cálidos, ofreciendo comodidad durante todo el día. Hecha con materiales premium.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
         "tipo": "camiseta",
         "color": "#FFF"
     },
@@ -22,7 +24,8 @@
         "nombre": "Camiseta azul Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-azul.png",
-        "descripcion": "Camiseta negra Oversize chulísima",
+        "descripcion": "Camiseta azul Oversize con un toque vibrante. Ideal para destacar en cualquier ocasión, manteniendo un estilo fresco y relajado.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
         "tipo": "camiseta",
         "color": "#3E629D"
     },
@@ -31,7 +34,8 @@
         "nombre": "Camiseta beige Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-beige.png",
-        "descripcion": "Camiseta negra Oversize chulísima",
+        "descripcion": "Camiseta beige Oversize de tono neutro. Perfecta para combinar con cualquier estilo y aportar un look natural.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
         "tipo": "camiseta",
         "color": "#EFE0C9"
     },
@@ -40,7 +44,8 @@
         "nombre": "Camiseta chicle Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-chicle.png",
-        "descripcion": "Camiseta negra Oversize chulísima",
+        "descripcion": "Camiseta chicle Oversize para quienes buscan un toque divertido y juvenil. Perfecta para destacar en cualquier ocasión.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
         "tipo": "camiseta",
         "color": "#BC7C94"
     },
@@ -49,7 +54,8 @@
         "nombre": "Camiseta chocolate Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-chocolate.png",
-        "descripcion": "Camiseta negra Oversize chulísima",
+        "descripcion": "Camiseta chocolate Oversize con un tono cálido y elegante. Ideal para un look relajado y sofisticado.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
         "tipo": "camiseta",
         "color": "#6C5854"
     },
@@ -58,7 +64,8 @@
         "nombre": "Camiseta gris Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-gris.png",
-        "descripcion": "Camiseta negra Oversize chulísima",
+        "descripcion": "Camiseta gris Oversize que combina perfectamente con cualquier atuendo. Aporta comodidad y estilo a tu día a día.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
         "tipo": "camiseta",
         "color": "#B1B1B1"
     },
@@ -67,7 +74,8 @@
         "nombre": "Camiseta pistacho Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-pistacho.png",
-        "descripcion": "Camiseta negra Oversize chulísima",
+        "descripcion": "Camiseta pistacho Oversize de color fresco y vibrante. Perfecta para destacar con estilo único y original.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
         "tipo": "camiseta",
         "color": "#93AE9B"
     },
@@ -76,8 +84,99 @@
         "nombre": "Camiseta roja Oversize",
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-roja.png",
-        "descripcion": "Camiseta negra Oversize chulísima",
+        "descripcion": "Camiseta roja Oversize de color intenso y llamativo. Ideal para expresar tu personalidad vibrante.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
         "tipo": "camiseta",
         "color": "#F53434"
+    },
+    {
+        "id": 10,
+        "nombre": "Sudadera azul Oversize",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/sudadera-azul.png",
+        "descripcion": "Sudadera azul Oversize, con un color vibrante y lleno de energía. Perfecta para quienes buscan destacar y sentirse cómodos.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Tejido suave, cómodo y de secado rápido.",
+        "tipo": "sudadera",
+        "color": "#5A93AF"
+    },
+    {
+        "id": 11,
+        "nombre": "Sudadera azul oscuro Oversize",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/sudadera-azulOscuro.png",
+        "descripcion": "Sudadera azul oscuro Oversize con un tono audaz, ideal para quienes quieren destacar su estilo único y dinámico.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Tejido resistente y transpirable, ideal para climas frescos.",
+        "tipo": "sudadera",
+        "color": "#364561"
+    },
+    {
+        "id": 12,
+        "nombre": "Sudadera blanca Oversize",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/sudadera-blanca.png",
+        "descripcion": "Sudadera blanca Oversize con un estilo moderno y atractivo. Perfecta para quienes buscan confort sin sacrificar el estilo.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Alta durabilidad, excelente ajuste y confort.",
+        "tipo": "sudadera",
+        "color": "#FFF"
+    },
+    {
+        "id": 13,
+        "nombre": "Sudadera carmesí Oversize",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/sudadera-carmesi.png",
+        "descripcion": "Sudadera carmesí Oversize, ideal para quienes buscan una prenda que combine comodidad con un toque vibrante.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Resistente, con excelente transpiración y secado rápido.",
+        "tipo": "sudadera",
+        "color": "#894040"
+    },
+    {
+        "id": 14,
+        "nombre": "Sudadera gris Oversize",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/sudadera-gris.png",
+        "descripcion": "Sudadera gris Oversize, un básico con un toque moderno que proporciona comodidad y estilo en cualquier ocasión.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Perfecta para cualquier temporada, fácil de combinar.",
+        "tipo": "sudadera",
+        "color": "#6A6B71"
+    },
+    {
+        "id": 15,
+        "nombre": "Sudadera marrón Oversize",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/sudadera-marron.png",
+        "descripcion": "Sudadera marrón Oversize con un diseño minimalista pero elegante, perfecta para quienes buscan un look cómodo y con estilo.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Tejido resistente y suave al tacto.",
+        "tipo": "sudadera",
+        "color": "#615441"
+    },
+    {
+        "id": 16,
+        "nombre": "Sudadera negra Oversize",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/sudadera-negra.png",
+        "descripcion": "Sudadera negra Oversize, ideal para quienes buscan un toque de audacia y confort. Su color intenso asegura que te destaques.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Confort duradero y fácil mantenimiento.",
+        "tipo": "sudadera",
+        "color": "#000"
+    },
+    {
+        "id": 17,
+        "nombre": "Sudadera a rayas Oversize",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/sudadera-rayas.png",
+        "descripcion": "Sudadera con rayas Oversize, perfecta para quienes buscan algo único y lleno de estilo.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Tejido cómodo y adecuado para todo tipo de actividades.",
+        "tipo": "sudadera",
+        "color": "#000"
+    },
+    {
+        "id": 18,
+        "nombre": "Sudadera violeta Oversize",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/sudadera-violeta.png",
+        "descripcion": "Sudadera violeta Oversize con un color vibrante que resalta tu estilo. Ideal para momentos de relax o para un look casual y cómodo.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Tejido transpirable y fácil de cuidar.",
+        "tipo": "sudadera",
+        "color": "#6B6496"
     }
 ]
