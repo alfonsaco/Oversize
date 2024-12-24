@@ -178,5 +178,105 @@
         "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Tejido transpirable y fácil de cuidar.",
         "tipo": "sudadera",
         "color": "#6B6496"
+    },
+    {
+        "id": 19,
+        "nombre": "Polo azul Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/polo-azul.png",
+        "descripcion": "Polo azul Oversize con un tono relajante perfecto para un look fresco y moderno. Ideal para salidas casuales o un día tranquilo en casa.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Suavidad al tacto y fácil de lavar.",
+        "tipo": "polo",
+        "color": "#162D51"
+    },
+    {
+        "id": 20,
+        "nombre": "Polo blanco Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/polo-blanco.png",
+        "descripcion": "Polo blanco Oversize que combina con todo, aportando un estilo limpio y versátil. Perfecto para cualquier ocasión.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Ligero y de secado rápido.",
+        "tipo": "polo",
+        "color": "#FFF"
+    },
+    {
+        "id": 21,
+        "nombre": "Polo magenta Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/polo-magenta.png",
+        "descripcion": "Polo magenta Oversize con un color atrevido para destacar. Ideal para quienes buscan un look único y vibrante.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Colores intensos y resistencia al desgaste.",
+        "tipo": "polo",
+        "color": "#53203F"
+    },
+    {
+        "id": 22,
+        "nombre": "Polo negro Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/polo-negro.png",
+        "descripcion": "Polo negro Oversize con un diseño clásico que nunca pasa de moda. Ideal para un estilo sofisticado y minimalista.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Material duradero y fácil de combinar.",
+        "tipo": "polo",
+        "color": "#000"
+    },
+    {
+        "id": 23,
+        "nombre": "Polo rayas azul Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/polo-rayas-azul.png",
+        "descripcion": "Polo a rayas azul Oversize que ofrece un toque juvenil y moderno. Perfecto para un estilo casual y relajado.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Diseño fresco y fácil de cuidar.",
+        "tipo": "polo",
+        "color": "linear-gradient(to top, #162D51 40%, #FFF 45%)"
+    },
+    {
+        "id": 24,
+        "nombre": "Polo rayas morado Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/polo-rayas-morado.png",
+        "descripcion": "Polo a rayas morado Oversize con un toque vibrante y llamativo. Ideal para resaltar en cualquier situación.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Diseño cómodo y transpirable.",
+        "tipo": "polo",
+        "color": "linear-gradient(to top, #654C72 40%, #FFF 45%)"
+    },
+    {
+        "id": 25,
+        "nombre": "Polo rayas rojo Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/polo-rayas-rojo.png",
+        "descripcion": "Polo a rayas rojo Oversize que combina energía y estilo. Perfecto para destacar en cualquier ocasión casual.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Resistente al uso y muy cómodo.",
+        "tipo": "polo",
+        "color": "linear-gradient(to top, #67282C 40%, #FFF 45%)"
+    },
+    {
+        "id": 26,
+        "nombre": "Polo rayas verde Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/polo-rayas-verde.png",
+        "descripcion": "Polo a rayas verde Oversize con un color fresco y relajante. Ideal para un día casual en cualquier entorno.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Fácil de combinar y resistente al uso diario.",
+        "tipo": "polo",
+        "color": "linear-gradient(to top, #005148 40%, #FFF 45%)"
+    },
+    {
+        "id": 27,
+        "nombre": "Polo rojo Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/polo-rojo.png",
+        "descripcion": "Polo rojo Oversize que destaca por su intensidad y estilo. Perfecto para un look llamativo y moderno.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Material de alta calidad y fácil cuidado.",
+        "tipo": "polo",
+        "color": "#4A1215"
+    },
+    {
+        "id": 28,
+        "nombre": "Polo verde Oversize",
+        "precio": 19.99,
+        "ruta": "../Imágenes/Ropa/polo-verde.png",
+        "descripcion": "Polo verde Oversize que combina estilo y frescura. Perfecto para un día cálido o un paseo al aire libre.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Transpirable y muy cómodo.",
+        "tipo": "polo",
+        "color": "#004239"
     }
 ]

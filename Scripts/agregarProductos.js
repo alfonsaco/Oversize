@@ -23,7 +23,7 @@ window.addEventListener("DOMContentLoaded", function () {
                                     <h4 class="nombre-producto">${producto.nombre}</h4>
                                     <div class="productos-datos">
                                         <p>${producto.precio}€</p>
-                                        <div style="background-color: ${producto.color};" class="producto-color"></div>
+                                        <div style="background: ${producto.color};" class="producto-color"></div>
                                     </div>
                                 <a>
                             </div>`;
