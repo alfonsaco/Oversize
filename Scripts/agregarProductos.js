@@ -11,23 +11,42 @@ window.addEventListener("DOMContentLoaded", function () {
 
     fetch("../Imágenes/Ropa/ropa.json").then(response => response.json()).then(data => {
 
-        // Filtrar los productos, y seleccionar el producto necesario para cada página
-        const tipoDeProducto=data.filter(producto => producto.tipo == tipoProducto);
-        tipoDeProducto.forEach(producto => {        
-            contenido=`<div class="producto">
-                            <a href="compraProducto.html?id=${producto.id}">
-                                <i class="fa-regular fa-heart"></i>
-                                <i class="fa-solid fa-heart"></i>
-                                <img src="${producto.ruta}" alt="${producto.descripcion}">
-                                <h4 class="nombre-producto">${producto.nombre}</h4>
-                                <div class="productos-datos">
-                                    <p>${producto.precio}€</p>
-                                    <div style="background-color: ${producto.color};" class="producto-color"></div>
-                                </div>
-                            <a>
-                        </div>`;
-            contenedorRopa.innerHTML+=contenido;
-        });
+        if(tipoProducto != "todo") {
+            // Filtrar los productos, y seleccionar el producto necesario para cada página
+            const tipoDeProducto=data.filter(producto => producto.tipo == tipoProducto);
+            tipoDeProducto.forEach(producto => {        
+                contenido=`<div class="producto">
+                                <a href="compraProducto.html?id=${producto.id}">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <img src="${producto.ruta}" alt="${producto.descripcion}">
+                                    <h4 class="nombre-producto">${producto.nombre}</h4>
+                                    <div class="productos-datos">
+                                        <p>${producto.precio}€</p>
+                                        <div style="background-color: ${producto.color};" class="producto-color"></div>
+                                    </div>
+                                <a>
+                            </div>`;
+                contenedorRopa.innerHTML+=contenido;
+            });
+        } else {
+            data.forEach(producto => {
+                contenido=`<div class="producto">
+                                <a href="compraProducto.html?id=${producto.id}">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <img src="${producto.ruta}" alt="${producto.descripcion}">
+                                    <h4 class="nombre-producto">${producto.nombre}</h4>
+                                    <div class="productos-datos">
+                                        <p>${producto.precio}€</p>
+                                        <div style="background-color: ${producto.color};" class="producto-color"></div>
+                                    </div>
+                                <a>
+                            </div>`;
+                contenedorRopa.innerHTML+=contenido;
+            });
+        }
+
     }).catch(error => console.error("No se pudieron cargar los productos. ERROR: "+error));
 
     // Función corazón
