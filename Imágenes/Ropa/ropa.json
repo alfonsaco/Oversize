@@ -328,5 +328,75 @@
         "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 400 g. <b>Características:</b> Corte amplio y estilo contemporáneo.",
         "tipo": "pantalon",
         "color": "#000"
+    },
+    {
+        "id": 34,
+        "nombre": "Abrigo de plumas negro",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/abrigo-plumas-negro.png",
+        "descripcion": "Abrigo de plumas negro, perfecto para mantener el calor en los días más fríos con un estilo elegante y funcional.",
+        "detalles": "<b>Composición:</b> Exterior 100% poliéster, relleno 80% pluma, 20% sintético. <b>Peso:</b> 800 g. <b>Características:</b> Resistente al agua y altamente aislante.",
+        "tipo": "chaqueta",
+        "color": "#000"
+    },
+    {
+        "id": 35,
+        "nombre": "Chaqueta aviador",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/chaqueta-aviador.png",
+        "descripcion": "Chaqueta aviador con un diseño clásico y moderno, ideal para un look casual y desenfadado.",
+        "detalles": "<b>Composición:</b> 100% poliéster. <b>Peso:</b> 600 g. <b>Características:</b> Bolsillos funcionales y acabado resistente al viento.",
+        "tipo": "chaqueta",
+        "color": "#000"
+    },
+    {
+        "id": 36,
+        "nombre": "Chaqueta bomber",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/chaqueta-bomber.png",
+        "descripcion": "Chaqueta bomber, cómoda y versátil, perfecta para complementar cualquier outfit urbano.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 500 g. <b>Características:</b> Ajuste moderno y tejido transpirable.",
+        "tipo": "chaqueta",
+        "color": "#000"
+    },
+    {
+        "id": 37,
+        "nombre": "Chaqueta de pana",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/chaqueta-pana.png",
+        "descripcion": "Chaqueta de pana clásica, cálida y elegante. Ideal para un look sofisticado y cómodo.",
+        "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 700 g. <b>Características:</b> Material suave y resistente al desgaste.",
+        "tipo": "chaqueta",
+        "color": "#000"
+    },
+    {
+        "id": 38,
+        "nombre": "Chaqueta varsity",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/chaqueta-varsity.png",
+        "descripcion": "Chaqueta varsity con un diseño deportivo y juvenil. Perfecta para destacar en cualquier ocasión casual.",
+        "detalles": "<b>Composición:</b> 100% poliéster. <b>Peso:</b> 600 g. <b>Características:</b> Diseño llamativo y cómodo.",
+        "tipo": "chaqueta",
+        "color": "#000"
+    },
+    {
+        "id": 39,
+        "nombre": "Chaqueta vaquera",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/chaqueta-vaquera.png",
+        "descripcion": "Chaqueta vaquera clásica, ideal para un estilo casual y atemporal.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 800 g. <b>Características:</b> Material resistente y diseño versátil.",
+        "tipo": "chaqueta",
+        "color": "#000"
+    },
+    {
+        "id": 40,
+        "nombre": "Chaqueta vaquera negra",
+        "precio": 29.99,
+        "ruta": "../Imágenes/Ropa/chaqueta-vaquera-negra.png",
+        "descripcion": "Chaqueta vaquera negra, un básico moderno que combina con cualquier prenda.",
+        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 800 g. <b>Características:</b> Corte clásico y gran durabilidad.",
+        "tipo": "chaqueta",
+        "color": "#000"
     }
 ]
