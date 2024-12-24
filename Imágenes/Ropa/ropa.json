@@ -278,5 +278,55 @@
         "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Transpirable y muy cómodo.",
         "tipo": "polo",
         "color": "#004239"
+    },
+    {
+        "id": 29,
+        "nombre": "Vaqueros azules",
+        "precio": 25.99,
+        "ruta": "../Imágenes/Ropa/vaqueros-azules.png",
+        "descripcion": "Vaqueros azules clásicos, ideales para un estilo casual y versátil. Perfectos para cualquier ocasión.",
+        "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 400 g. <b>Características:</b> Ajuste cómodo y resistente al desgaste.",
+        "tipo": "pantalon",
+        "color": "#4884A1"
+    },
+    {
+        "id": 30,
+        "nombre": "Vaqueros azules claros",
+        "precio": 25.99,
+        "ruta": "../Imágenes/Ropa/vaqueros-azules-claros.png",
+        "descripcion": "Vaqueros azules claros con un estilo relajado y moderno. Perfectos para días soleados y ocasiones informales.",
+        "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 400 g. <b>Características:</b> Material fresco y cómodo.",
+        "tipo": "pantalon",
+        "color": "#ACC0CF"
+    },
+    {
+        "id": 31,
+        "nombre": "Vaqueros azules rotos",
+        "precio": 25.99,
+        "ruta": "../Imágenes/Ropa/vaqueros-azules-rotos.png",
+        "descripcion": "Vaqueros azules rotos con un diseño desenfadado y juvenil. Perfectos para un look atrevido.",
+        "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 400 g. <b>Características:</b> Diseño único y gran comodidad.",
+        "tipo": "pantalon",
+        "color": "#73A3C6"
+    },
+    {
+        "id": 32,
+        "nombre": "Vaqueros negros",
+        "precio": 25.99,
+        "ruta": "../Imágenes/Ropa/vaqueros-negros.png",
+        "descripcion": "Vaqueros negros clásicos, ideales para un estilo elegante y casual. Fáciles de combinar.",
+        "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 400 g. <b>Características:</b> Ajuste perfecto y gran durabilidad.",
+        "tipo": "pantalon",
+        "color": "#000"
+    },
+    {
+        "id": 33,
+        "nombre": "Vaqueros negros anchos",
+        "precio": 25.99,
+        "ruta": "../Imágenes/Ropa/vaqueros-negros-anchos.png",
+        "descripcion": "Vaqueros negros anchos con un diseño moderno y cómodo. Perfectos para un look urbano.",
+        "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 400 g. <b>Características:</b> Corte amplio y estilo contemporáneo.",
+        "tipo": "pantalon",
+        "color": "#000"
     }
 ]
