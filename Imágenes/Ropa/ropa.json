@@ -167,7 +167,7 @@
         "descripcion": "Sudadera con rayas Oversize, perfecta para quienes buscan algo único y lleno de estilo.",
         "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Tejido cómodo y adecuado para todo tipo de actividades.",
         "tipo": "sudadera",
-        "color": "#000"
+        "color": "linear-gradient(to top, #000 40%, #FFF 45%)"
     },
     {
         "id": 18,
@@ -347,7 +347,7 @@
         "descripcion": "Chaqueta aviador con un diseño clásico y moderno, ideal para un look casual y desenfadado.",
         "detalles": "<b>Composición:</b> 100% poliéster. <b>Peso:</b> 600 g. <b>Características:</b> Bolsillos funcionales y acabado resistente al viento.",
         "tipo": "chaqueta",
-        "color": "#000"
+        "color": "#84513C"
     },
     {
         "id": 36,
@@ -367,7 +367,7 @@
         "descripcion": "Chaqueta de pana clásica, cálida y elegante. Ideal para un look sofisticado y cómodo.",
         "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 700 g. <b>Características:</b> Material suave y resistente al desgaste.",
         "tipo": "chaqueta",
-        "color": "#000"
+        "color": "#DBA76C"
     },
     {
         "id": 38,
@@ -377,7 +377,7 @@
         "descripcion": "Chaqueta varsity con un diseño deportivo y juvenil. Perfecta para destacar en cualquier ocasión casual.",
         "detalles": "<b>Composición:</b> 100% poliéster. <b>Peso:</b> 600 g. <b>Características:</b> Diseño llamativo y cómodo.",
         "tipo": "chaqueta",
-        "color": "#000"
+        "color": "#A83523"
     },
     {
         "id": 39,
@@ -387,7 +387,7 @@
         "descripcion": "Chaqueta vaquera clásica, ideal para un estilo casual y atemporal.",
         "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 800 g. <b>Características:</b> Material resistente y diseño versátil.",
         "tipo": "chaqueta",
-        "color": "#000"
+        "color": "#42607B"
     },
     {
         "id": 40,
