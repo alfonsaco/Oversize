@@ -17,6 +17,7 @@ window.addEventListener("DOMContentLoaded", function() {
             document.getElementById("descripcion-producto-compra").textContent=producto.descripcion;
             document.getElementById("detalles-producto-compra").innerHTML=producto.detalles;
             document.getElementById("precio-producto-compra").textContent=producto.precio+'€';
+            document.querySelector(".color-producto-compra").style.background=producto.color;
         }
     });
 
