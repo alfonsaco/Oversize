@@ -5,7 +5,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-negra.png",
         "descripcion": "Camiseta negra Oversize de estilo moderno. Perfecta para un look casual o combinar con prendas más elegantes. Hecha con materiales de alta calidad para mayor durabilidad.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 250 g.</li><li><b>Características:</b> Tejido transpirable, resistente y de secado rápido.</li></ul>",
         "tipo": "camiseta",
         "color": "#000"
     },
@@ -15,7 +15,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-blanca.png",
         "descripcion": "Camiseta blanca Oversize de estilo moderno. Ideal para climas cálidos, ofreciendo comodidad durante todo el día. Hecha con materiales premium.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 250 g.</li><li><b>Características:</b> Tejido transpirable, resistente y de secado rápido.</li></ul>",
         "tipo": "camiseta",
         "color": "#FFF"
     },
@@ -25,7 +25,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-azul.png",
         "descripcion": "Camiseta azul Oversize con un toque vibrante. Ideal para destacar en cualquier ocasión, manteniendo un estilo fresco y relajado.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 250 g.</li><li><b>Características:</b> Tejido transpirable, resistente y de secado rápido.</li></ul>",
         "tipo": "camiseta",
         "color": "#3E629D"
     },
@@ -35,7 +35,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-beige.png",
         "descripcion": "Camiseta beige Oversize de tono neutro. Perfecta para combinar con cualquier estilo y aportar un look natural.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 250 g.</li><li><b>Características:</b> Tejido transpirable, resistente y de secado rápido.</li></ul>",
         "tipo": "camiseta",
         "color": "#EFE0C9"
     },
@@ -45,7 +45,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-chicle.png",
         "descripcion": "Camiseta chicle Oversize para quienes buscan un toque divertido y juvenil. Perfecta para destacar en cualquier ocasión.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 250 g.</li><li><b>Características:</b> Tejido transpirable, resistente y de secado rápido.</li></ul>",
         "tipo": "camiseta",
         "color": "#BC7C94"
     },
@@ -55,7 +55,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-chocolate.png",
         "descripcion": "Camiseta chocolate Oversize con un tono cálido y elegante. Ideal para un look relajado y sofisticado.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 250 g.</li><li><b>Características:</b> Tejido transpirable, resistente y de secado rápido.</li></ul>",
         "tipo": "camiseta",
         "color": "#6C5854"
     },
@@ -65,7 +65,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-gris.png",
         "descripcion": "Camiseta gris Oversize que combina perfectamente con cualquier atuendo. Aporta comodidad y estilo a tu día a día.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 250 g.</li><li><b>Características:</b> Tejido transpirable, resistente y de secado rápido.</li></ul>",
         "tipo": "camiseta",
         "color": "#B1B1B1"
     },
@@ -75,7 +75,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-pistacho.png",
         "descripcion": "Camiseta pistacho Oversize de color fresco y vibrante. Perfecta para destacar con estilo único y original.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 250 g.</li><li><b>Características:</b> Tejido transpirable, resistente y de secado rápido.</li></ul>",
         "tipo": "camiseta",
         "color": "#93AE9B"
     },
@@ -85,7 +85,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/camiseta-roja.png",
         "descripcion": "Camiseta roja Oversize de color intenso y llamativo. Ideal para expresar tu personalidad vibrante.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 250 g. <b>Características:</b> Tejido transpirable, resistente y de secado rápido.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 250 g.</li><li><b>Características:</b> Tejido transpirable, resistente y de secado rápido.</li></ul>",
         "tipo": "camiseta",
         "color": "#F53434"
     },
@@ -95,7 +95,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/sudadera-azul.png",
         "descripcion": "Sudadera azul Oversize, con un color vibrante y lleno de energía. Perfecta para quienes buscan destacar y sentirse cómodos.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Tejido suave, cómodo y de secado rápido.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 300 g.</li><li><b>Características:</b> Tejido suave, cómodo y de secado rápido.</li></ul>",
         "tipo": "sudadera",
         "color": "#5A93AF"
     },
@@ -105,7 +105,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/sudadera-azulOscuro.png",
         "descripcion": "Sudadera azul oscuro Oversize con un tono audaz, ideal para quienes quieren destacar su estilo único y dinámico.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Tejido resistente y transpirable, ideal para climas frescos.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 300 g.</li><li><b>Características:</b> Tejido resistente y transpirable, ideal para climas frescos.</li></ul>",
         "tipo": "sudadera",
         "color": "#364561"
     },
@@ -115,7 +115,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/sudadera-blanca.png",
         "descripcion": "Sudadera blanca Oversize con un estilo moderno y atractivo. Perfecta para quienes buscan confort sin sacrificar el estilo.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Alta durabilidad, excelente ajuste y confort.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 300 g.</li><li><b>Características:</b> Alta durabilidad, excelente ajuste y confort.</li></ul>",
         "tipo": "sudadera",
         "color": "#FFF"
     },
@@ -125,7 +125,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/sudadera-carmesi.png",
         "descripcion": "Sudadera carmesí Oversize, ideal para quienes buscan una prenda que combine comodidad con un toque vibrante.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Resistente, con excelente transpiración y secado rápido.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 300 g.</li><li><b>Características:</b> Resistente, con excelente transpiración y secado rápido.</li></ul>",
         "tipo": "sudadera",
         "color": "#894040"
     },
@@ -135,7 +135,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/sudadera-gris.png",
         "descripcion": "Sudadera gris Oversize, un básico con un toque moderno que proporciona comodidad y estilo en cualquier ocasión.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Perfecta para cualquier temporada, fácil de combinar.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 300 g.</li><li><b>Características:</b> Perfecta para cualquier temporada, fácil de combinar.</li></ul>",
         "tipo": "sudadera",
         "color": "#6A6B71"
     },
@@ -145,7 +145,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/sudadera-marron.png",
         "descripcion": "Sudadera marrón Oversize con un diseño minimalista pero elegante, perfecta para quienes buscan un look cómodo y con estilo.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Tejido resistente y suave al tacto.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 300 g.</li><li><b>Características:</b> Tejido resistente y suave al tacto.</li></ul>",
         "tipo": "sudadera",
         "color": "#615441"
     },
@@ -155,7 +155,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/sudadera-negra.png",
         "descripcion": "Sudadera negra Oversize, ideal para quienes buscan un toque de audacia y confort. Su color intenso asegura que te destaques.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Confort duradero y fácil mantenimiento.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 300 g.</li><li><b>Características:</b> Confort duradero y fácil mantenimiento.</li></ul>",
         "tipo": "sudadera",
         "color": "#000"
     },
@@ -165,7 +165,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/sudadera-rayas.png",
         "descripcion": "Sudadera con rayas Oversize, perfecta para quienes buscan algo único y lleno de estilo.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Tejido cómodo y adecuado para todo tipo de actividades.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 300 g.</li><li><b>Características:</b> Tejido cómodo y adecuado para todo tipo de actividades.</li></ul>",
         "tipo": "sudadera",
         "color": "linear-gradient(to top, #000 40%, #FFF 45%)"
     },
@@ -175,7 +175,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/sudadera-violeta.png",
         "descripcion": "Sudadera violeta Oversize con un color vibrante que resalta tu estilo. Ideal para momentos de relax o para un look casual y cómodo.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 300 g. <b>Características:</b> Tejido transpirable y fácil de cuidar.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 300 g.</li><li><b>Características:</b> Tejido transpirable y fácil de cuidar.</li></ul>",
         "tipo": "sudadera",
         "color": "#6B6496"
     },
@@ -185,7 +185,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/polo-azul.png",
         "descripcion": "Polo azul Oversize con un tono relajante perfecto para un look fresco y moderno. Ideal para salidas casuales o un día tranquilo en casa.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Suavidad al tacto y fácil de lavar.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 200 g.</li><li><b>Características:</b> Suavidad al tacto y fácil de lavar.</li></ul>",
         "tipo": "polo",
         "color": "#162D51"
     },
@@ -195,7 +195,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/polo-blanco.png",
         "descripcion": "Polo blanco Oversize que combina con todo, aportando un estilo limpio y versátil. Perfecto para cualquier ocasión.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Ligero y de secado rápido.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 200 g.</li><li><b>Características:</b> Ligero y de secado rápido.</li></ul>",
         "tipo": "polo",
         "color": "#FFF"
     },
@@ -205,7 +205,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/polo-magenta.png",
         "descripcion": "Polo magenta Oversize con un color atrevido para destacar. Ideal para quienes buscan un look único y vibrante.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Colores intensos y resistencia al desgaste.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 200 g.</li><li><b>Características:</b> Colores intensos y resistencia al desgaste.</li></ul>",
         "tipo": "polo",
         "color": "#53203F"
     },
@@ -215,7 +215,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/polo-negro.png",
         "descripcion": "Polo negro Oversize con un diseño clásico que nunca pasa de moda. Ideal para un estilo sofisticado y minimalista.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Material duradero y fácil de combinar.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 200 g.</li><li><b>Características:</b> Material duradero y fácil de combinar.</li></ul>",
         "tipo": "polo",
         "color": "#000"
     },
@@ -225,7 +225,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/polo-rayas-azul.png",
         "descripcion": "Polo a rayas azul Oversize que ofrece un toque juvenil y moderno. Perfecto para un estilo casual y relajado.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Diseño fresco y fácil de cuidar.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 200 g.</li><li><b>Características:</b> Diseño fresco y fácil de cuidar.</li></ul>",
         "tipo": "polo",
         "color": "linear-gradient(to top, #162D51 40%, #FFF 45%)"
     },
@@ -235,7 +235,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/polo-rayas-morado.png",
         "descripcion": "Polo a rayas morado Oversize con un toque vibrante y llamativo. Ideal para resaltar en cualquier situación.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Diseño cómodo y transpirable.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 200 g.</li><li><b>Características:</b> Diseño cómodo y transpirable.</li></ul>",
         "tipo": "polo",
         "color": "linear-gradient(to top, #654C72 40%, #FFF 45%)"
     },
@@ -245,7 +245,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/polo-rayas-rojo.png",
         "descripcion": "Polo a rayas rojo Oversize que combina energía y estilo. Perfecto para destacar en cualquier ocasión casual.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Resistente al uso y muy cómodo.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 200 g.</li><li><b>Características:</b> Resistente al uso y muy cómodo.</li></ul>",
         "tipo": "polo",
         "color": "linear-gradient(to top, #67282C 40%, #FFF 45%)"
     },
@@ -255,7 +255,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/polo-rayas-verde.png",
         "descripcion": "Polo a rayas verde Oversize con un color fresco y relajante. Ideal para un día casual en cualquier entorno.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Fácil de combinar y resistente al uso diario.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 200 g.</li><li><b>Características:</b> Fácil de combinar y resistente al uso diario.</li></ul>",
         "tipo": "polo",
         "color": "linear-gradient(to top, #005148 40%, #FFF 45%)"
     },
@@ -265,7 +265,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/polo-rojo.png",
         "descripcion": "Polo rojo Oversize que destaca por su intensidad y estilo. Perfecto para un look llamativo y moderno.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Material de alta calidad y fácil cuidado.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 200 g.</li><li><b>Características:</b> Material de alta calidad y fácil cuidado.</li></ul>",
         "tipo": "polo",
         "color": "#4A1215"
     },
@@ -275,7 +275,7 @@
         "precio": 19.99,
         "ruta": "../Imágenes/Ropa/polo-verde.png",
         "descripcion": "Polo verde Oversize que combina estilo y frescura. Perfecto para un día cálido o un paseo al aire libre.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 200 g. <b>Características:</b> Transpirable y muy cómodo.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 200 g.</li><li><b>Características:</b> Transpirable y muy cómodo.</li></ul>",
         "tipo": "polo",
         "color": "#004239"
     },
@@ -285,7 +285,7 @@
         "precio": 25.99,
         "ruta": "../Imágenes/Ropa/vaqueros-azules.png",
         "descripcion": "Vaqueros azules clásicos, ideales para un estilo casual y versátil. Perfectos para cualquier ocasión.",
-        "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 400 g. <b>Características:</b> Ajuste cómodo y resistente al desgaste.",
+        "detalles": "<ul><li><b>Composición:</b> 98% algodón, 2% elastano.</li><li><b>Peso:</b> 400 g.</li><li><b>Características:</b> Ajuste cómodo y resistente al desgaste.</li></ul>",
         "tipo": "pantalon",
         "color": "#4884A1"
     },
@@ -295,7 +295,7 @@
         "precio": 25.99,
         "ruta": "../Imágenes/Ropa/vaqueros-azules-claros.png",
         "descripcion": "Vaqueros azules claros con un estilo relajado y moderno. Perfectos para días soleados y ocasiones informales.",
-        "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 400 g. <b>Características:</b> Material fresco y cómodo.",
+        "detalles": "<ul><li><b>Composición:</b> 98% algodón, 2% elastano.</li><li><b>Peso:</b> 400 g.</li><li><b>Características:</b> Material fresco y cómodo.</li></ul>",
         "tipo": "pantalon",
         "color": "#ACC0CF"
     },
@@ -305,7 +305,7 @@
         "precio": 25.99,
         "ruta": "../Imágenes/Ropa/vaqueros-azules-rotos.png",
         "descripcion": "Vaqueros azules rotos con un diseño desenfadado y juvenil. Perfectos para un look atrevido.",
-        "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 400 g. <b>Características:</b> Diseño único y gran comodidad.",
+        "detalles": "<ul><li><b>Composición:</b> 98% algodón, 2% elastano.</li><li><b>Peso:</b> 400 g.</li><li><b>Características:</b> Diseño único y gran comodidad.</li></ul>",
         "tipo": "pantalon",
         "color": "#73A3C6"
     },
@@ -315,7 +315,7 @@
         "precio": 25.99,
         "ruta": "../Imágenes/Ropa/vaqueros-negros.png",
         "descripcion": "Vaqueros negros clásicos, ideales para un estilo elegante y casual. Fáciles de combinar.",
-        "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 400 g. <b>Características:</b> Ajuste perfecto y gran durabilidad.",
+        "detalles": "<ul><li><b>Composición:</b> 98% algodón, 2% elastano.</li><li><b>Peso:</b> 400 g.</li><li><b>Características:</b> Ajuste perfecto y gran durabilidad.</li></ul>",
         "tipo": "pantalon",
         "color": "#000"
     },
@@ -325,7 +325,7 @@
         "precio": 25.99,
         "ruta": "../Imágenes/Ropa/vaqueros-negros-anchos.png",
         "descripcion": "Vaqueros negros anchos con un diseño moderno y cómodo. Perfectos para un look urbano.",
-        "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 400 g. <b>Características:</b> Corte amplio y estilo contemporáneo.",
+        "detalles": "<ul><li><b>Composición:</b> 98% algodón, 2% elastano.</li><li><b>Peso:</b> 400 g.</li><li><b>Características:</b> Corte amplio y estilo contemporáneo.</li></ul>",
         "tipo": "pantalon",
         "color": "#000"
     },
@@ -335,7 +335,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/abrigo-plumas-negro.png",
         "descripcion": "Abrigo de plumas negro, perfecto para mantener el calor en los días más fríos con un estilo elegante y funcional.",
-        "detalles": "<b>Composición:</b> Exterior 100% poliéster, relleno 80% pluma, 20% sintético. <b>Peso:</b> 800 g. <b>Características:</b> Resistente al agua y altamente aislante.",
+        "detalles": "<ul><li><b>Composición:</b> Exterior 100% poliéster, relleno 80% pluma, 20% sintético.</li><li><b>Peso:</b> 800 g.</li><li><b>Características:</b> Resistente al agua y altamente aislante.</li></ul>",
         "tipo": "chaqueta",
         "color": "#000"
     },
@@ -345,7 +345,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/chaqueta-aviador.png",
         "descripcion": "Chaqueta aviador con un diseño clásico y moderno, ideal para un look casual y desenfadado.",
-        "detalles": "<b>Composición:</b> 100% poliéster. <b>Peso:</b> 600 g. <b>Características:</b> Bolsillos funcionales y acabado resistente al viento.",
+        "detalles": "<ul><li><b>Composición:</b> 100% poliéster.</li><li><b>Peso:</b> 600 g.</li><li><b>Características:</b> Bolsillos funcionales y acabado resistente al viento.</li></ul>",
         "tipo": "chaqueta",
         "color": "#84513C"
     },
@@ -355,7 +355,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/chaqueta-bomber.png",
         "descripcion": "Chaqueta bomber, cómoda y versátil, perfecta para complementar cualquier outfit urbano.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 500 g. <b>Características:</b> Ajuste moderno y tejido transpirable.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 500 g.</li><li><b>Características:</b> Ajuste moderno y tejido transpirable.</li></ul>",
         "tipo": "chaqueta",
         "color": "#000"
     },
@@ -365,7 +365,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/chaqueta-pana.png",
         "descripcion": "Chaqueta de pana clásica, cálida y elegante. Ideal para un look sofisticado y cómodo.",
-        "detalles": "<b>Composición:</b> 98% algodón, 2% elastano. <b>Peso:</b> 700 g. <b>Características:</b> Material suave y resistente al desgaste.",
+        "detalles": "<ul><li><b>Composición:</b> 98% algodón, 2% elastano.</li><li><b>Peso:</b> 700 g.</li><li><b>Características:</b> Material suave y resistente al desgaste.</li></ul>",
         "tipo": "chaqueta",
         "color": "#DBA76C"
     },
@@ -375,7 +375,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/chaqueta-varsity.png",
         "descripcion": "Chaqueta varsity con un diseño deportivo y juvenil. Perfecta para destacar en cualquier ocasión casual.",
-        "detalles": "<b>Composición:</b> 100% poliéster. <b>Peso:</b> 600 g. <b>Características:</b> Diseño llamativo y cómodo.",
+        "detalles": "<ul><li><b>Composición:</b> 100% poliéster.</li><li><b>Peso:</b> 600 g.</li><li><b>Características:</b> Diseño llamativo y cómodo.</li></ul>",
         "tipo": "chaqueta",
         "color": "#A83523"
     },
@@ -385,7 +385,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/chaqueta-vaquera.png",
         "descripcion": "Chaqueta vaquera clásica, ideal para un estilo casual y atemporal.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 800 g. <b>Características:</b> Material resistente y diseño versátil.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 800 g.</li><li><b>Características:</b> Material resistente y diseño versátil.</li></ul>",
         "tipo": "chaqueta",
         "color": "#42607B"
     },
@@ -395,7 +395,7 @@
         "precio": 29.99,
         "ruta": "../Imágenes/Ropa/chaqueta-vaquera-negra.png",
         "descripcion": "Chaqueta vaquera negra, un básico moderno que combina con cualquier prenda.",
-        "detalles": "<b>Composición:</b> 100% algodón. <b>Peso:</b> 800 g. <b>Características:</b> Corte clásico y gran durabilidad.",
+        "detalles": "<ul><li><b>Composición:</b> 100% algodón.</li><li><b>Peso:</b> 800 g.</li><li><b>Características:</b> Corte clásico y gran durabilidad.</li></ul>",
         "tipo": "chaqueta",
         "color": "#000"
     }

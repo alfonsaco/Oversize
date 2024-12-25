@@ -93,6 +93,7 @@ h2 {
     display: none;
 }
 
+
 /* ESTILOS DE LA PARTE DE LA COMPRA */
 .seccion-producto-compra {
     display: flex;
@@ -115,9 +116,6 @@ h2 {
 .div-contenido-compra {
     color: #3f3f3f;
     font-family: 'Futura';
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
 }
 .div-contenido-compra h4 {
     font-size: 1.5em;
@@ -132,12 +130,19 @@ h2 {
     border-radius: 100%;
     border: 2px solid #cccccc;
     cursor: pointer;
+    margin-top: 15px;
+}
+#precio-producto-compra {
+    margin-top: 3px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
 }
 
 /* Estilos de los botones de tallas de la ropa */ 
 .tallas {
     display: flex;
     gap: 5px;
+    margin: 15px 0px 30px 0px;
 }
 .tallas div {
     width: 35px;
@@ -165,6 +170,7 @@ button {
 .agregar-al-carrito {
     background-color: #000;
     color: #e7e7e7;
+    margin-bottom: 15px;
 }
 .agregar-a-favoritos {
     background-color: #FFF;
