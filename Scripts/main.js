@@ -2,7 +2,8 @@
 const botonBuscador=document.getElementById('icono-buscar');
 const buscador=document.getElementById('buscador-desplegar');
 
-botonBuscador.addEventListener("click", function() {
+botonBuscador.addEventListener("click", function(e) {
+    e.preventDefault();
     buscador.classList.toggle("mover-buscador");
 });
 

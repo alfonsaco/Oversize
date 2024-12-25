@@ -17,7 +17,8 @@ window.addEventListener("DOMContentLoaded", function() {
                 textoBoton=true;
             }
             document.body.classList.toggle("dark-mode");
-            // Condiciones para el localStorage
+
+            // Condiciones para el localStorage. Se guardarán las preferencias del usuario, según su elección
             if(document.body.classList.contains("dark-mode")) {
                 localStorage.setItem("darkMode","enabled");
             } else {

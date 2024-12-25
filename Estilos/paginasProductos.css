@@ -11,7 +11,6 @@ main {
     display: flex;
     flex-direction: column; 
     justify-content: flex-start;
-    min-height: 100vh;
     background-color: #fafafa;
     padding: 0% 3%;
     margin-bottom: 60px;
@@ -92,4 +91,44 @@ h2 {
 .fa-heart.fa-solid {
     color: rgb(212, 63, 63);
     display: none;
+}
+
+/* ESTILOS DE LA PARTE DE LA COMPRA */
+.seccion-producto-compra {
+    display: flex;
+    flex-direction: row;
+    padding: 60px 3% 0% 3%;
+    gap: 20px;
+}
+.div-imagen-compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion-producto-compra img {
+    width: 90%;
+    aspect-ratio: 1/1;
+}
+.div-contenido-compra {
+    color: #3f3f3f;
+    font-family: 'Futura';
+}
+.div-contenido-compra h4 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+/* Estilos de los botones de tallas de la ropa */ 
+.tallas {
+    display: flex;
+    gap: 5px;
+}
+.tallas div {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
