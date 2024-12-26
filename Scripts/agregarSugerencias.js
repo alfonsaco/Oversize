@@ -3,6 +3,7 @@ window.addEventListener("DOMContentLoaded", function() {
     contenedor.innerHTML='';
     let cant=contenedor.getAttribute("data-cantidad");
     let cont=0;
+    const setProductos=new Set();
 
     // Se agregarán los productos que el contenedor en cuestión tenga especificado en su
     // atributo "data-cantidad"
@@ -10,19 +11,22 @@ window.addEventListener("DOMContentLoaded", function() {
         do {
             cont++;
             let random=Math.floor((Math.random()*40)+1);
+            // Usaré un while para evitar que haya sugerencias repetidas
+            while(setProductos.has(random)) {
+                random=Math.floor((Math.random()*40)+1);
+            }
+
+            setProductos.add(random);
             const producto=data.find(p => p.id == random);
 
             if(producto) {
-                let contenido=`<div class="producto">
+                let contenido=`<div class="producto item-sugerencia">
                     <a href="compraProducto.html?id=${producto.id}">
                         <i class="fa-regular fa-heart"></i>
                         <i class="fa-solid fa-heart"></i>
                         <img src="${producto.ruta}" alt="${producto.descripcion}">
                         <h4 class="nombre-producto">${producto.nombre}</h4>
-                        <div class="productos-datos">
-                            <p>${producto.precio}€</p>
-                            <div style="background: ${producto.color};" class="producto-color"></div>
-                        </div>
+                        <p>${producto.precio}€</p>
                     <a>
                 </div>`;
                 contenedor.innerHTML+=contenido;
