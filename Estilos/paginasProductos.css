@@ -99,9 +99,10 @@ h2 {
 .seccion-producto-compra {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
     padding: 60px 3% 0% 3%;
-    gap: 20px;
+    gap: 35px;
     width: 100%;
 }
 /* Div imagen */
@@ -109,10 +110,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 .seccion-producto-compra img {
-    width: 90%;
+    width: 100%;
     aspect-ratio: 1/1;
     cursor: pointer;
 }
@@ -121,6 +122,7 @@ h2 {
     color: #3f3f3f;
     font-family: 'Futura';
     width: 100%;
+    align-self: flex-start;
 }
 .div-contenido-compra h4 {
     font-size: 1.5em;
@@ -186,4 +188,23 @@ button {
 }
 .agregar-a-favoritos {
     background-color: #FFF;
+}
+
+/* SUGERENCIAS DE PRODUCTOS */
+.sugerencias {
+    width: 100%;
+    padding: 70px 3% 60px 3%;
+}
+.sugerencias h4 {
+    color: #272727;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.sugerencias-productos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.sugerencias-productos div {
+    width: 50%;
 }
