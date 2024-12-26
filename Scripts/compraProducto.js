@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", function() {
         // Buscamos el producto en cuestión dentro del JSON
         const producto=data.find(p => p.id === Number(idProducto));
 
-        // Pondremos los datos edl producto en el HTML compraProducto.html
+        // Pondremos los datos del producto en el HTML compraProducto.html
         // También cambiaré el título
         if(producto) {
             document.getElementById("nombre-producto-compra").textContent=producto.nombre;
