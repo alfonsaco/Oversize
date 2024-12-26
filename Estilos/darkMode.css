@@ -89,3 +89,21 @@
 .dark-mode main h2, .dark-mode .nombre-producto, .dark-mode main p {
     color: #d6d6d6;
 }
+/* Sección compra producto */
+.dark-mode .producto:hover img {
+    border: 1px solid #FFF;
+}
+.dark-mode .agregar-al-carrito {
+    background-color: #0c0c0c;
+    color: #e7e7e7;
+    margin-bottom: 15px;
+}
+.dark-mode .agregar-a-favoritos {
+    background-color: rgb(231, 231, 231)
+}
+.dark-mode .agregar-a-favoritos p {
+    color: #0c0c0c;
+}
+.dark-mode #nombre-producto-compra, .dark-mode #precio-producto-compra {
+    color: #e7e7e7;
+}
