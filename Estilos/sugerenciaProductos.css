@@ -10,13 +10,13 @@
 .sugerencias h4:first-child {
     margin-bottom: 20px;
 }
-.sugerencias-productos {
+.sugerencias .sugerencias-productos {
     width: 100%;
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(4, minmax(100px, 1fr));
 }
-.item-sugerencia {
+.sugerencias .item-sugerencia {
     width: 100%;
     height: auto;
     margin: 0;
@@ -26,15 +26,16 @@
     text-transform: uppercase;
     font-size: 2em;
 }
-.item-sugerencia img {
+.sugerencias .item-sugerencia img {
     width: 100%;
     aspect-ratio: 1/1;
     height: auto;
     display: block;
+    margin-bottom: 10px;
 }
-.item-sugerencia p, .item-sugerencia h4 {
+.sugerencias .item-sugerencia p, .sugerencias .item-sugerencia h4 {
     text-align: center;
 }
-.item-sugerencia h4  {
+.sugerencias .item-sugerencia h4  {
     font-size: 1em;   
 }

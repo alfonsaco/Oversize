@@ -17,7 +17,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 3vw;
-    margin: 100px 0px;
+    margin: 5vw 0px 7vw 0;
 }
 .inicio-imagenes-producto {
     width: 100%;
@@ -94,18 +94,29 @@ main {
 /* CARRUSEL */ /* CARRUSEL */ /* CARRUSEL */ /* CARRUSEL */
 /* CARRUSEL */ /* CARRUSEL */ /* CARRUSEL */ /* CARRUSEL */
 .carrusel {
+    padding: 0% 12%;
+    margin-top: 5vw;
+}
+.carrusel > h4 {
+    color: #272727;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.carrusel > div {
     display: flex;
     align-items: center;
-    margin-top: 100px;
-    padding: 0% 12%;
     height: auto;
     gap: 20px;
+    overflow: hidden;
 }
-.carrusel .sugerencias-productos {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
+.carrusel > div .sugerencias-productos {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    gap: 20px;
 }
-.carrusel button {
+.carrusel > div button {
     cursor: pointer;
     height: 30px;
     width: 30px;
@@ -116,4 +127,17 @@ main {
     background-color: transparent;
     color: #494949;
     font-size: 1.3em;
+}
+.carrusel > div .item-sugerencia {
+    text-align: center;
+    flex: 0 0 24%;
+}
+.carrusel .item-sugerencia a {
+    color: #272727;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .85em;
+}
+.carrusel .item-sugerencia img {
+    width: 100%;
 }
