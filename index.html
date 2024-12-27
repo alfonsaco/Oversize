@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Estilos/main.css" type="text/css">
     <link rel="stylesheet" href="Estilos/darkMode.css" type="text/css">
     <link rel="stylesheet" href="Estilos/mediaQuerys.css" type="text/css">
+    <link rel="stylesheet" href="Estilos/sugerenciaProductos.css" type="text/css">
     <link rel="shortcut icon" href="Imágenes/Icono.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -70,8 +71,12 @@
         </a>
         <!--CARRUSEL DE PRODUCTOS-->
         <!--Estilos en el CSS "paginasProductos"-->
-        <section class="contenedor-productos">
-            
+        <section class="carrusel">
+            <button><i class="fas fa-chevron-left"></i></button>
+            <div class="sugerencias-productos" data-cantidad="10">
+
+            </div>
+            <button><i class="fas fa-chevron-right"></i></button>
         </section>
 
         <section class="imagenes-video-producto">
@@ -160,5 +165,6 @@
     <script src="Scripts/darkMode.js"></script>
     <script src="Scripts/agregarProductos.js"></script>
     <script src="Scripts/buscarProducto.js"></script>
+    <script src="Scripts/agregarSugerencias.js"></script>
 </body>
 </html>
