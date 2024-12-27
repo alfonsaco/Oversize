@@ -165,7 +165,7 @@ header{
     width: 370px;
     height: 100%;
     border-right: 1px solid rgb(207, 207, 207);
-    z-index: 100;
+    z-index: 1000;
     visibility: hidden;
     padding: 25px;
     display: flex;
