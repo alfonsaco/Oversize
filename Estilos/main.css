@@ -17,7 +17,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 3vw;
-    margin: 5vw 0px 7vw 0;
+    margin: 7vw 0;
 }
 .inicio-imagenes-producto {
     width: 100%;
@@ -29,7 +29,7 @@ main {
     gap: 4%;
 }
 .inicio-imagenes-producto > a {
-    background-color: lightcoral;
+    background-color: rgb(241, 210, 210);
     height: 100%;
     width: 100%;
     cursor: pointer;
@@ -40,14 +40,22 @@ main {
     flex-direction: column;
     text-decoration: none;
 }
+.inicio-imagenes-producto > a:first-child {
+    background-image: url(../Imágenes/chaqueta2.jpg);
+    background-size: cover;
+}
+.inicio-imagenes-producto > a:last-child {
+    background-image: url(../Imágenes/sudaderas.jpg);
+    background-size: cover;
+}
 .efecto-negro {
     width: 100%;
     height: 100%;
-    background-color: #000;
-    opacity: 0;
+    background-color: #0000008c;
     transition: 0.3s ease;
     position: absolute;
     z-index: 100;
+    opacity: 0;
 }
 .inicio-imagenes-producto > a p {
     color: #FFF;
@@ -76,7 +84,8 @@ main {
     color: #000;
 }
 .inicio-imagenes-producto > a:hover .efecto-negro {
-    opacity: 0.5;
+    opacity: 1;
+    backdrop-filter: blur(3px);
 }
 .inicio-imagenes-producto > a:hover p {
     opacity: 1;
@@ -86,23 +95,41 @@ main {
 }
 
 .inicio-video-producto {
-    background-color: lightgreen;
+    background-color: rgb(194, 236, 194);
+    background-image: url(../Imágenes/biggie.gif);
+    background-size: cover;
+    background-position: 0px;
     width: 100%;
     height: 25vw;
 }
 
 /* CARRUSEL */ /* CARRUSEL */ /* CARRUSEL */ /* CARRUSEL */
 /* CARRUSEL */ /* CARRUSEL */ /* CARRUSEL */ /* CARRUSEL */
-.carrusel {
-    padding: 0% 12%;
-    margin-top: 5vw;
-}
 .carrusel > h4 {
     color: #272727;
     text-transform: uppercase;
     font-size: 2em;
     margin-bottom: 20px;
 }
+.carrusel {
+    padding: 0% 12%;
+    margin-top: 5vw;
+}
+.carrusel .sugerencias-productos {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    gap: 20px;
+    grid-template-columns: repeat(5, minmax(100px, 1fr));
+}
+.carrusel .item-sugerencia a {
+    color: #272727;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .85em;
+}
+
+/*
 .carrusel > div {
     display: flex;
     align-items: center;
@@ -110,12 +137,7 @@ main {
     gap: 20px;
     overflow: hidden;
 }
-.carrusel > div .sugerencias-productos {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    gap: 20px;
-}
+
 .carrusel > div button {
     cursor: pointer;
     height: 30px;
@@ -132,12 +154,7 @@ main {
     text-align: center;
     flex: 0 0 24%;
 }
-.carrusel .item-sugerencia a {
-    color: #272727;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: .85em;
-}
 .carrusel .item-sugerencia img {
     width: 100%;
 }
+*/

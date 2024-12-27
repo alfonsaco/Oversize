@@ -32,24 +32,4 @@ window.addEventListener("DOMContentLoaded", function() {
 
         } while(cont < cant);        
     });
-
-
-    // Función de carrusel
-    /*
-    const botonIzq=this.document.querySelector(".boton-izq");
-    const botonDcho=this.document.querySelector(".boton-dcha");
-    const productosContenedor=document.querySelectorAll(".item-sugerencia");
-
-    botonIzq.addEventListener("click", function() {
-        productosContenedor.forEach(div => {
-            div.style.transform="translateX(-100%)";
-        });
-    });
-
-    botonDcho.addEventListener("click", function() {
-        productosContenedor.forEach(div => {
-            div.style.transform="translateX(100%)";
-        });
-    });
-    */
 });
