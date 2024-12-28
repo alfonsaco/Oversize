@@ -1,3 +1,24 @@
+/* ESTILOS PARA LA PÁGINA DE BÚSQUEDA DE UN PRODUCTO */
 .busqueda-realizada {
+    text-align: left;
+    align-self: flex-start;
+    height: auto;
+    position: relative;
+}
+.contenedor-productos {
+    height: 100%;
+}
+.no-hay-resultados {
+    background-color: rgb(167, 167, 167);
+    border: 1px solid grey;
+    color: #ffffff;
+    text-transform: uppercase;
+    height: 60px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin-top: 40px;
+    display: none;
 }

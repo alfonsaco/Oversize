@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
         // Si hay existen productos, se agregan
         if(producto.length > 0) {
-            document.querySelector(".busqueda-realizada").textContent=`Mostrando resultados para "${resultado}"`;
+            document.querySelector(".busqueda-realizada").textContent=`Mostrando resultados para "${resultado}":`;
 
             producto.forEach(producto => {
                 let contenido=`<div class="producto">
@@ -33,7 +33,13 @@ window.addEventListener("DOMContentLoaded", function() {
             });
 
         } else {
-            document.querySelector(".busqueda-realizada").textContent=`No se ha encontrado ningún resultado para "${resultado}"`;
+            document.querySelector(".texto-no-hay-resultados").textContent=`No se ha encontrado ningún resultado para "${resultado}"`;
+            
+            const texto=document.querySelector(".busqueda-realizada");
+            texto.textContent=`Mostrando resultados para "${resultado}":`;
+            texto.style.top='-190px';
+
+            document.querySelector(".no-hay-resultados").style.display='flex';
         }
     });
     
