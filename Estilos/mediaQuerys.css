@@ -21,3 +21,27 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .footer-secciones {
+        flex-direction: column;
+        height: auto;
+        padding: 25px 0;
+        gap: 30px;
+        text-align: center;
+    }
+    .footer-suscripcion > div {
+        width: 80%;
+        text-align: center;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-wodth: 500px) {
+    .contenedor-productos {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+    }
+    .titulo-seccion {
+        font-size: 10px !important;
+    }
+}
