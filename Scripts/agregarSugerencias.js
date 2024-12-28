@@ -21,7 +21,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
             if(producto) {
                 let contenido=`<div class="producto item-sugerencia">
-                    <a href="compraProducto.html?id=${producto.id}">
+                    <a href="Páginas/compraProducto.html?id=${producto.id}">
                         <img src="${producto.ruta}" alt="${producto.descripcion}">
                         <h4 class="nombre-producto">${producto.nombre}</h4>
                         <p>${producto.precio}€</p>
