@@ -45,9 +45,24 @@
 .dark-mode .header-principal {
     background-color: #1d1d1d;
 }
+.dark-mode header  {
+    position: relative;
+}
+.dark-mode .header-logo {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+.dark-mode .header-logo img {
+    width: 130px;
+}
 .dark-mode .logo-blanco {
     display: block;
-    transform: translateY(-4px);
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -60%);
 }
 .dark-mode .logo-negro {
     display: none;
