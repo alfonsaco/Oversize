@@ -13,7 +13,7 @@
 .sugerencias-productos {
     width: 100%;
     display: grid;
-    gap: 30px;
+    gap: 20px;
     grid-template-columns: repeat(4, minmax(100px, 1fr));
 }
 .sugerencias .item-sugerencia {

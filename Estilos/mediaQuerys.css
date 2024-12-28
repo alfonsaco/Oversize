@@ -20,6 +20,12 @@
         align-items: center;
         text-align: center;
     }
+    .contenedor-productos {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+    }
+    .carrusel .item-sugerencia a {
+        font-size: .7em;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -35,13 +41,43 @@
         text-align: center;
         font-size: 0.9em;
     }
-}
-
-@media screen and (max-wodth: 500px) {
+    .sugerencias h4:first-child  {
+        font-size: 1.7em;
+    }
     .contenedor-productos {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
     }
-    .titulo-seccion {
-        font-size: 10px !important;
+    .seccion-producto-compra {
+        gap: 20px !important;
+    }
+    .carrusel .item-sugerencia a {
+        font-size: .5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contenedor-productos {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+    }
+    .sugerencias h4:first-child  {
+        font-size: 1.4em;
+    }
+    .carrusel h4 {
+        font-size: 1.4em;
+        margin-bottom: 8px;
+    }
+    .carrusel .sugerencias-productos {
+        gap: 8px;
+    }
+    .carrusel .item-sugerencia a {
+        color: #272727;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: .4em;
+        margin: 0;
+    }
+    .carrusel .item-sugerencia a p {
+        position: relative;
+        bottom: 6px;
     }
 }
