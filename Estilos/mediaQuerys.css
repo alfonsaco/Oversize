@@ -26,6 +26,9 @@
     .carrusel .item-sugerencia a {
         font-size: .7em;
     }
+    main > h2 {
+        font-size: 1.6em;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -53,6 +56,9 @@
     .carrusel .item-sugerencia a {
         font-size: .5em;
     }
+    main > h2 {
+        font-size: 1.4em;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -79,5 +85,29 @@
     .carrusel .item-sugerencia a p {
         position: relative;
         bottom: 6px;
+    }
+    main > h2 {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nombre-producto {
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 400px) {
+    .nombre-producto {
+        font-size: 0.85em;
+    }
+}
+@media screen and (max-width: 370px) {
+    .nombre-producto {
+        font-size: 0.75em;
+    }
+}
+@media screen and (max-width: 357px) {
+    .nombre-producto {
+        font-size: 1em;
     }
 }

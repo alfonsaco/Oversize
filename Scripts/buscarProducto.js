@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
         if(busqueda != "" && busqueda != null) {
             const enlaceClick=document.createElement("a");    
-            enlaceClick.href=`Páginas/buscar.html?busqueda=${busqueda}`;
+            enlaceClick.href=`/Páginas/buscar.html?busqueda=${busqueda}`;
             enlaceClick.style.display="none";
             
             document.body.appendChild(enlaceClick);

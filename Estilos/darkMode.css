@@ -122,6 +122,6 @@
 .dark-mode #nombre-producto-compra, .dark-mode #precio-producto-compra {
     color: #e7e7e7;
 }
-.dark-mode .carrusel h4 {
+.dark-mode .carrusel h4, .dark-mode .sugerencias h4 {
     color: #e7e7e7;
 }
