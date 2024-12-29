@@ -101,7 +101,7 @@ header{
     transform: translateY(-250px);
     transition: 0.4s ease;
     position: fixed;
-    z-index: 10;
+    z-index: 200;
 }
 .header-buscador form{
     display: flex;

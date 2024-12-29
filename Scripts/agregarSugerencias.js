@@ -7,7 +7,8 @@ window.addEventListener("DOMContentLoaded", function() {
 
     // Se agregarán los productos que el contenedor en cuestión tenga especificado en su
     // atributo "data-cantidad"
-    fetch("../Imágenes/Ropa/ropa.json").then(response => response.json()).then(data => {
+    fetch("/Oversize/Imágenes/Ropa/ropa.json").then(response => response.json()).then(data => {
+        // ruta para local: ../Imágenes/Ropa/ropa.json
         do {
             cont++;
             let random=Math.floor((Math.random()*40)+1);
