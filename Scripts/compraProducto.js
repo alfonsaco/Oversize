@@ -4,7 +4,8 @@ window.addEventListener("DOMContentLoaded", function() {
     const URL=new URLSearchParams(window.location.search);
     const idProducto=URL.get('id');    
     
-    fetch("../Imágenes/Ropa/ropa.json").then(response => response.json()).then(data => {
+    // RUTA LOCAL: "../Imágenes/Ropa/ropa.json"
+    fetch("/Oversize/Imágenes/Ropa/ropa.json").then(response => response.json()).then(data => {
         // Buscamos el producto en cuestión dentro del JSON
         const producto=data.find(p => p.id === Number(idProducto));
 
