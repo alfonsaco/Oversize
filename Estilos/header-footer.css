@@ -163,7 +163,7 @@ header{
 /*ESTILOS DEL NAV*/ /*ESTILOS DEL NAV*/ /*ESTILOS DEL NAV*/ /*ESTILOS DEL NAV*/ /*ESTILOS DEL NAV*/
 #nav-desplegable {
     position: fixed;
-    left: -400px;
+    left: -850px;
     transition: left 0.5s ease, visibility 0.5s ease;
     background-color: #fff;
     width: 370px;
