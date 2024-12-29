@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", function() {
         // También cambiaré el título
         if(producto) {
             document.getElementById("nombre-producto-compra").textContent=producto.nombre;
-            document.getElementById("imagen-producto-compra").src=producto.ruta;
+            document.getElementById("imagen-producto-compra").src="/Oversize/"+producto.ruta;
             document.querySelector("title").textContent="Oversize Studios - "+producto.nombre;
             document.getElementById("descripcion-producto-compra").textContent=producto.descripcion;
             document.getElementById("detalles-producto-compra").innerHTML=producto.detalles;
