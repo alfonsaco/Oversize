@@ -21,9 +21,13 @@ window.addEventListener("DOMContentLoaded", function() {
             const producto=data.find(p => p.id == random);
 
             if(producto) {
-                let contenido=`<div class="producto item-sugerencia">
-                    <a href="/Páginas/compraProducto.html?id=${producto.id}">
-                        <img src="${producto.ruta}" alt="${producto.descripcion}">
+                /* RUTAS PARA LOCAL:
+                         a: "../Páginas/compraProducto.html?id=${producto.id}"
+                         img: ${producto.ruta}
+                */        
+                let contenido=`<div class="producto item-sugerencia">                    
+                    <a href="/Oversize/Páginas/compraProducto.html?id=${producto.id}">
+                        <img src="/Oversize/${producto.ruta}" alt="${producto.descripcion}">
                         <h4 class="nombre-producto">${producto.nombre}</h4>
                         <p>${producto.precio}€</p>
                     <a>
