@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     fetch("/Oversize/Imágenes/Ropa/ropa.json").then(response => response.json()).then(data => {
         // Buscamos el producto en cuestión dentro del JSON, lo filtramos
-        const producto=data.filter(p => p.nombre.toLowerCase().includes(resultado));
+        const producto=data.filter(p => p.nombre.toLowerCase().includes(resultado.toLowerCase()));
         const contenedor=document.querySelector(".contenedor-productos");
 
         // Si hay existen productos, se agregan

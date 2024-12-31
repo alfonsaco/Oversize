@@ -23,8 +23,9 @@
     .contenedor-productos {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
     }
-    .carrusel .item-sugerencia a {
-        font-size: .7em;
+    .carrusel .sugerencias-productos {
+        grid-template-columns: repeat(2, minmax(80px, 1fr)) !important;
+        grid-template-rows: repeat(2, 1fr);
     }
     main > h2 {
         font-size: 1.6em;
@@ -54,10 +55,17 @@
         gap: 20px !important;
     }
     .carrusel .item-sugerencia a {
-        font-size: .5em;
+        font-size: .7em;
     }
     main > h2 {
         font-size: 1.4em;
+    }
+    .inicio-imagenes-producto {
+        flex-direction: column;
+        height: 80vw;
+    }
+    .inicio-video-producto {
+        height: 35vw;
     }
 }
 
@@ -73,13 +81,13 @@
         margin-bottom: 8px;
     }
     .carrusel .sugerencias-productos {
-        gap: 8px;
+        gap: 10px;
     }
     .carrusel .item-sugerencia a {
         color: #272727;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: .4em;
+        font-size: .6em;
         margin: 0;
     }
     .carrusel .item-sugerencia a p {

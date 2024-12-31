@@ -117,11 +117,10 @@ main {
     margin-top: 5vw;
 }
 .carrusel .sugerencias-productos {
-    display: flex;
-    overflow: hidden;
+    display: grid;
     width: 100%;
     gap: 20px;
-    grid-template-columns: repeat(5, minmax(100px, 1fr));
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
 }
 .carrusel .item-sugerencia a {
     color: #272727;
