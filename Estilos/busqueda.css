@@ -12,6 +12,7 @@
     background-color: rgb(167, 167, 167);
     border: 1px solid grey;
     color: #ffffff;
+    text-shadow: 1px 1px 4px #000;
     text-transform: uppercase;
     height: 60px;
     width: 500px;
