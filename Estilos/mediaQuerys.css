@@ -30,6 +30,10 @@
     main > h2 {
         font-size: 1.6em;
     }
+    .carrusel h4 {
+        font-size: 1.5em;
+        margin-bottom: 12px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -67,6 +71,21 @@
     .inicio-video-producto {
         height: 35vw;
     }
+    .imagen-rebajas {
+        display: none;
+    }
+    .imagen-rebajas-lite {
+        display: block;
+    }
+    .inicio-imagenes-producto > a p {
+        font-size: 6vw;
+    }
+    .ver-todo {
+        font-size: 2vw;
+    }
+    .imagenes-video-producto {
+        gap: 3.5vw;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -96,6 +115,10 @@
     }
     main > h2 {
         font-size: 1.3em;
+    }
+    .carrusel h4 {
+        font-size: 1.2em;
+        margin-bottom: 8px;
     }
 }
 

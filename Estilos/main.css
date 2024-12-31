@@ -8,6 +8,10 @@ main {
 .imagen-rebajas {
     width: 100%;
 }
+.imagen-rebajas-lite {
+    display: none;
+    width: 100%;
+}
 
 /* SECCIÓN DE IMÁGENES Y VIDEO */
 .imagenes-video-producto {
@@ -114,7 +118,7 @@ main {
 }
 .carrusel {
     padding: 0% 12%;
-    margin-top: 5vw;
+    margin-top: 6vw;
 }
 .carrusel .sugerencias-productos {
     display: grid;
