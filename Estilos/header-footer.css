@@ -171,7 +171,10 @@ header{
     border-right: 1px solid rgb(207, 207, 207);
     z-index: 1000;
     visibility: hidden;
-    padding: 25px;
+    padding: 10px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -185,6 +188,18 @@ header{
     display: flex;
     flex-direction: column;
     gap: 7px;
+    width: 100%;
+}
+.categorias div {
+    width: 100%;
+    border-bottom: 2px solid rgb(231, 231, 231);
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+.categorias div:last-child {
+    border: 0;
 }
 .categorias a {
     text-decoration: none;
@@ -193,6 +208,9 @@ header{
 }
 .categorias a:hover {
     font-weight: bold;
+}
+.cambiar-tema {
+    padding-left: 25px;
 }
 #efecto-oscurecer-nav {
     width: 100vw;

@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     // Se agregarán los productos que el contenedor en cuestión tenga especificado en su
     // atributo "data-cantidad"
-    fetch("../Imágenes/Ropa/ropa.json").then(response => response.json()).then(data => {
+    fetch("/Oversize/Imágenes/Ropa/ropa.json").then(response => response.json()).then(data => {
         // ruta para local: ../Imágenes/Ropa/ropa.json
         do {
             cont++;
@@ -26,8 +26,8 @@ window.addEventListener("DOMContentLoaded", function() {
                          img: ${producto.ruta}
                 */        
                 let contenido=`<div class="producto item-sugerencia">                    
-                    <a href="../Páginas/compraProducto.html?id=${producto.id}">
-                        <img src="/${producto.ruta}" alt="${producto.descripcion}">
+                    <a href="/Oversize/Páginas/compraProducto.html?id=${producto.id}">
+                        <img src="/Oversize/${producto.ruta}" alt="${producto.descripcion}">
                         <h4 class="nombre-producto">${producto.nombre}</h4>
                         <p>${producto.precio}€</p>
                     <a>
