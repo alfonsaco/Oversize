@@ -30,25 +30,21 @@
     main > h2 {
         font-size: 1.6em;
     }
-    .carrusel h4 {
+    .carrusel > h4 {
         font-size: 1.5em;
         margin-bottom: 12px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .footer-secciones {
-        flex-direction: column;
-        height: auto;
-        padding: 25px 0;
-        gap: 30px;
-        text-align: center;
+    /* HEADER */
+    .header-logo img {
+        width: 110px;
     }
-    .footer-suscripcion > div {
-        width: 80%;
-        text-align: center;
-        font-size: 0.9em;
+    .dark-mode .header-logo img {
+        width: 110px;
     }
+    /* MAIN */
     .sugerencias h4:first-child  {
         font-size: 1.7em;
     }
@@ -86,6 +82,30 @@
     .imagenes-video-producto {
         gap: 3.5vw;
     }
+
+    /* FOOTER */
+    .footer-secciones {
+        flex-direction: column;
+        height: auto;
+        padding: 25px 0;
+        gap: 30px;
+        text-align: center;
+    }
+    .footer-suscripcion > div {
+        width: 80%;
+        text-align: center;
+        font-size: 0.9em;
+    }
+    .footer-suscripcion p {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+    .footer-redes-sociales {
+        font-size: 1em;
+        margin-top: 45px;
+        margin-bottom: 20px;
+        gap: 30px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -95,7 +115,7 @@
     .sugerencias h4:first-child  {
         font-size: 1.4em;
     }
-    .carrusel h4 {
+    .carrusel > h4 {
         font-size: 1.4em;
         margin-bottom: 8px;
     }
@@ -116,15 +136,20 @@
     main > h2 {
         font-size: 1.3em;
     }
-    .carrusel h4 {
+    .carrusel > h4 {
         font-size: 1.2em;
-        margin-bottom: 8px;
+    }
+    .carrusel h4 {
+        margin-bottom: 5px;
     }
 }
 
 @media screen and (max-width: 450px) {
     .nombre-producto {
         font-size: 0.9em;
+    }
+    .footer-suscripcion p {
+        font-size: .85em;
     }
 }
 @media screen and (max-width: 400px) {
