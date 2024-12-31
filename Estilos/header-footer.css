@@ -101,47 +101,47 @@ header{
     transform: translateY(-250px);
     transition: 0.4s ease;
     position: fixed;
-    z-index: 200;
+    z-index: 800;
 }
 .header-buscador form {
     display: flex;
+    align-items: center;
     width: 50%;
     height: 55%;
     background-color: transparent;
-    justify-content: right;
 }
 #buscador {
     border: 0;
     border-bottom: 2px solid rgb(160, 160, 160);
     width: 100%;
     height: 100%;
-    padding-left: 10px;
     color: rgb(102, 102, 102);
     background-color: transparent;
     font-family: 'Poppins';
     text-transform: uppercase;
     font-weight: 600;
+    padding-left: 25px;
 }
 #buscador:focus {
     outline: 0;
 }
-.buscador-boton {
-    background-color: transparent;
-    border: 0;
-    width: 35px;
-    height: 35px;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header-buscador i {
     cursor: pointer;
-    position: absolute;
+    color: rgb(160, 160, 160);
+    font-size: 1em;
+    position: relative;
 }
 .fa-search {
-    color: rgb(160, 160, 160);
-    position: relative;
-    font-size: 1.2em;
+    left: 15px;
 }
+.fa-x {
+    right: 15px;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button {
+    display: none;
+}
+
 /*Clase para crear la animación de aparecer buscador en JavaScript*/
 .mover-buscador {
     transform: translateY(60px);

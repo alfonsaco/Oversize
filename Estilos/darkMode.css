@@ -75,6 +75,7 @@
 }
 .dark-mode #buscador {
     background-color: transparent;
+    color: #d3d3d3;
 }
 .dark-mode .header-compra img {
     filter: invert();
