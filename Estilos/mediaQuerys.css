@@ -15,11 +15,17 @@
 }
 
 @media screen and (max-width: 800px) {
+    /* NAV */
     #nav-desplegable {
         width: 100%;
         align-items: center;
         text-align: center;
     }
+    .header-buscador form{
+        width: 90%;
+    }
+
+    /* MAIN */
     .contenedor-productos {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
     }
@@ -44,6 +50,7 @@
     .dark-mode .header-logo img {
         width: 110px;
     }
+
     /* MAIN */
     .sugerencias h4:first-child  {
         font-size: 1.7em;

@@ -90,9 +90,9 @@ header{
 
 /*PARTE INFERIOR*/  /*PARTE INFERIOR*/  /*PARTE INFERIOR*/  /*PARTE INFERIOR*/
 /*PARTE INFERIOR que contiene el buscador*/
-.header-buscador{
+.header-buscador {
     background-color: #fff;
-    height: 50px;
+    height: 60px;
     width: 100%;
     border-bottom: rgb(207, 207, 207) solid 1px;
     display: flex;
@@ -103,28 +103,28 @@ header{
     position: fixed;
     z-index: 200;
 }
-.header-buscador form{
+.header-buscador form {
     display: flex;
-    width: 30%;
-    height: 70%;
+    width: 50%;
+    height: 55%;
     justify-content: right;
 }
-#buscador{
-    border-radius: 25px;
-    border: 1px solid rgb(160, 160, 160);
+#buscador {
+    border: 0;
+    border-bottom: 2px solid rgb(160, 160, 160);
     width: 100%;
     height: 100%;
     padding-left: 10px;
     color: rgb(102, 102, 102);
     font-family: 'Poppins';
-    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 600;
 }
-#buscador:focus{
-    border: 1px rgb(0, 0, 0) solid;
+#buscador:focus {
     outline: 0;
 }
-.buscador-boton{
-    background-color: rgb(156, 156, 156);
+.buscador-boton {
+    background-color: transparent;
     border: 0;
     width: 35px;
     height: 35px;
@@ -135,25 +135,14 @@ header{
     cursor: pointer;
     position: absolute;
 }
-.fa-search{
-    color: #ffffff;
+.fa-search {
+    color: rgb(160, 160, 160);
     position: relative;
     font-size: 1.2em;
 }
 /*Clase para crear la animación de aparecer buscador en JavaScript*/
-.mover-buscador{
+.mover-buscador {
     transform: translateY(60px);
-}
-/*Media Querys*/
-@media screen and (max-width: 1000px) {
-    .header-buscador form{
-        width: 40%;
-    }
-}
-@media screen and (max-width: 500px) {
-    .header-buscador form{
-        width: 70%;
-    }
 }
 /*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ 
 /*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ /*FIN DE LOS ESTILOS DEL HEADER*/ 
