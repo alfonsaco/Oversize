@@ -74,13 +74,22 @@
     background-color: #707070;
 }
 .dark-mode #buscador {
-    background-color: #d3d3d3;
+    background-color: transparent;
 }
 .dark-mode .header-compra img {
     filter: invert();
 }
 .dark-mode #header-barritas div {
     background-color: #d6d6d6;
+}
+.dark-mode .header-buscador form button {
+    background-color: transparent;
+}
+.dark-mode .categorias div {
+    border-bottom: 2px solid rgba(231, 231, 231, 0.329);
+}
+.dark-mode .categorias div:last-child {
+    border: 0;
 }
 
 /* NAV */

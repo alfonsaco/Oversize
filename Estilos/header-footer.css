@@ -107,6 +107,7 @@ header{
     display: flex;
     width: 50%;
     height: 55%;
+    background-color: transparent;
     justify-content: right;
 }
 #buscador {
@@ -116,6 +117,7 @@ header{
     height: 100%;
     padding-left: 10px;
     color: rgb(102, 102, 102);
+    background-color: transparent;
     font-family: 'Poppins';
     text-transform: uppercase;
     font-weight: 600;
