@@ -4,6 +4,7 @@
     align-self: flex-start;
     height: auto;
     position: relative;
+    text-transform: uppercase;
 }
 .contenedor-productos {
     height: 100%;

@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
         // Si hay existen productos, se agregan
         if(producto.length > 0) {
-            document.querySelector(".busqueda-realizada").textContent=`Mostrando resultados para "${resultado}":`;
+            document.querySelector(".busqueda-realizada").textContent=`MOSTRANDO RESULTADOS PARA "${resultado.toUpperCase()}":`;
             document.head.querySelector("title").textContent=`Oversize Studios - Buscar "${resultado}"`;
 
             producto.forEach(producto => {
@@ -31,11 +31,11 @@ window.addEventListener("DOMContentLoaded", function() {
             });
 
         } else {
-            document.querySelector(".texto-no-hay-resultados").textContent=`No se ha encontrado ningún resultado para "${resultado}"`;
+            document.querySelector(".texto-no-hay-resultados").textContent=`NO SE HA ENCONTRADO NINGÚN RESULTADO PARA "${resultado.toUpperCase()}"`;
             document.head.querySelector("title").textContent=`Oversize Studios - Buscar "${resultado}"`;
             
             const texto=document.querySelector(".busqueda-realizada");
-            texto.textContent=`Mostrando resultados para "${resultado}":`;
+            texto.textContent=`MOSTRANDO RESULTADOS PARA "${resultado.toUpperCase()}":`;
             texto.style.top='-190px';
 
             document.querySelector(".no-hay-resultados").style.display='flex';

@@ -33,6 +33,11 @@
         grid-template-columns: repeat(2, minmax(80px, 1fr)) !important;
         grid-template-rows: repeat(2, 1fr);
     }
+    .sugerencias .sugerencias-productos {
+        grid-template-columns: repeat(2, minmax(80px, 1fr)) !important;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
     main > h2 {
         font-size: 1.6em;
     }
@@ -151,6 +156,9 @@
     }
     .carrusel h4 {
         margin-bottom: 5px;
+    }
+    .footer-suscripcion > div {
+        margin: 40px 0;
     }
 }
 

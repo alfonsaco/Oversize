@@ -34,6 +34,7 @@ header{
 #header-barritas {
     cursor: pointer;
     z-index: 100;
+    transition: .2s ease;
 }
 #header-barritas div{
     background-color: #000;
@@ -44,19 +45,12 @@ header{
     margin-left: 25px;
 }
 /*Hover*/
-    #header-barritas:hover div:first-child {
-        transform: translateY(2px);
-    }
-    #header-barritas:hover div:last-child {
-        transform: translateY(-2px);
-    }
-/*Active*/
-    #header-barritas:active div:first-child {
-        transform: translateY(-4px);
-    }
-    #header-barritas:active div:last-child {
-        transform: translateY(4px);
-    }
+#header-barritas:hover div:first-child {
+    transform: translateY(-2px);
+}
+#header-barritas:hover div:last-child {
+    transform: translateY(2px);
+}
 
 /*logo de Oversize Inc.*/
 .header-logo {
