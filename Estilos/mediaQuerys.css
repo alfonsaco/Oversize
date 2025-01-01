@@ -89,6 +89,9 @@
     .imagenes-video-producto {
         gap: 3.5vw;
     }
+    .no-hay-resultados {
+        width: 90%;
+    }
 
     /* FOOTER */
     .footer-secciones {
