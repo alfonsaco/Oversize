@@ -3,12 +3,9 @@
 window.addEventListener("DOMContentLoaded", function() {
     const botonBuscar=document.getElementById("buscador-boton");
     const buscador=document.getElementById("buscador");
+    const form=document.querySelector("form");
 
-    // Búsqueda
-    botonBuscar.addEventListener("click", function(e) {
-        // Para evitar que el <button> recargue la página, ya que su comportamiento
-        // por defecto hace eso
-        e.preventDefault();
+    function realizarBusqueda() {
         let busqueda=buscador.value;
 
         if(busqueda != "" && busqueda != null) {
@@ -19,6 +16,24 @@ window.addEventListener("DOMContentLoaded", function() {
             document.body.appendChild(enlaceClick);
             enlaceClick.click();
             document.body.removeChild(enlaceClick);
+        }
+    }
+
+    // Evita la recarga de la página, ya que el form tendrá este comportamiento por defecto
+    form.addEventListener("submit", function(e) {
+        e.preventDefault();
+        realizarBusqueda();
+    });
+
+    // Búsqueda
+    botonBuscar.addEventListener("click", function(e) {
+        realizarBusqueda();
+    });
+
+    botonBuscar.addEventListener("keypress", function(e) {
+        if(e.key === "Enter") {
+            e.preventDefault();
+            realizarBusqueda();
         }
     });
 });
