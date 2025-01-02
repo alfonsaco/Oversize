@@ -57,6 +57,14 @@
         margin-bottom: 12px;
     }
 
+    /* COMPRA PRODUCTO */
+    .main-compra {
+        padding: 0 !important;
+    }
+    .seccion-producto-compra {
+        padding: 40px 1% 0% 1% !important;
+    }
+
     /* BUSCADOR */
     .busqueda-realizada {
         text-align: center !important;
