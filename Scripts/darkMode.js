@@ -10,10 +10,10 @@ window.addEventListener("DOMContentLoaded", function() {
             bola.classList.toggle("mover-bola");
             boton.classList.toggle("cambiar-color");
             if(textoBoton==true) {
-                texto.textContent="Modo claro";
+                texto.textContent="MODO CLARO";
                 textoBoton=false;
             } else {
-                texto.textContent="Modo oscuro";
+                texto.textContent="MODO OSCURO";
                 textoBoton=true;
             }
             document.body.classList.toggle("dark-mode");
@@ -31,7 +31,7 @@ window.addEventListener("DOMContentLoaded", function() {
         bola.classList.add("mover-bola");
         boton.classList.add("cambiar-color");
         document.body.classList.add("dark-mode");
-        texto.textContent="Modo claro";
+        texto.textContent="MODO CLARO";
         textoBoton=false;
     }
 });

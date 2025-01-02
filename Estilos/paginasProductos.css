@@ -2,10 +2,6 @@
    EJEMPLO: camisetas.html, polos.html, sudaderas.html 
    
    Son los estilos para el JavaScript "agregarProductos.js"           */
-@font-face {
-    font-family: 'Futura';
-    src: url(../Fuentes/Futura-Book.ttf);
-}
 
 main {
     display: flex;
@@ -56,7 +52,7 @@ h2 {
     color: #3f3f3f;
     height: auto;
     width: 100%;
-    font-family: 'Futura';
+    font-family: 'Futura', 'Overpass', 'Poppins';
     text-decoration: none;
 }
 .producto img {
@@ -121,7 +117,7 @@ h2 {
 /* Div texto */
 .div-contenido-compra {
     color: #3f3f3f;
-    font-family: 'Futura';
+    font-family: 'Futura', 'Overpass', 'Poppins';
     width: 100%;
     align-self: flex-start;
 }
