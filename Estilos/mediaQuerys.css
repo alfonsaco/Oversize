@@ -20,6 +20,7 @@
         width: 100%;
         align-items: center;
         text-align: center;
+        border-right: 0;
     }
     .header-buscador form{
         width: 90%;
@@ -56,6 +57,18 @@
         font-size: 1.5em;
         margin-bottom: 12px;
     }
+    /* CONTENIDO DE LOS PRODUCTOS MOSTRADOS */
+    .producto i.fa-heart {
+        font-size: 1.4em;
+        top: 15px;
+        left: 15px;
+    }
+    .producto p, .sugerencias .sugerencias-productos p {
+        font-size: .7em !important;
+    }
+    .producto h4.nombre-producto {
+        font-size: 0.75em;
+    }
 
     /* COMPRA PRODUCTO */
     .main-compra {
@@ -69,6 +82,15 @@
     .busqueda-realizada {
         text-align: center !important;
         font-size: 1.4em;
+    }
+
+    /* FOOTER */
+    .footer-secciones {
+        flex-direction: column;
+        height: auto;
+        padding: 25px 0;
+        gap: 30px;
+        text-align: center;
     }
 }
 
@@ -85,9 +107,7 @@
     .sugerencias h4:first-child  {
         font-size: 1.7em;
     }
-    .contenedor-productos {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
-    }
+    
     .seccion-producto-compra {
         gap: 20px !important;
     }
@@ -119,6 +139,13 @@
     .imagenes-video-producto {
         gap: 3.5vw;
     }
+    /* PÁGINAS DE PRODUCTOS */ 
+    .contenedor-productos {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+    }
+    .producto h4.nombre-producto {
+        font-size: 0.7em;
+    }
 
     /* BUSCADOR */
     .no-hay-resultados {
@@ -130,13 +157,6 @@
     }
 
     /* FOOTER */
-    .footer-secciones {
-        flex-direction: column;
-        height: auto;
-        padding: 25px 0;
-        gap: 30px;
-        text-align: center;
-    }
     .footer-suscripcion > div {
         width: 80%;
         text-align: center;
@@ -157,6 +177,13 @@
 @media screen and (max-width: 500px) {
     .contenedor-productos {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+    }
+
+    /* PRODUCTOS MOSTRADOS */ 
+    .producto i.fa-heart {
+        font-size: 1.3em;
+        top: 10px;
+        left: 10px;
     }
     .sugerencias h4:first-child  {
         font-size: 1.4em;
@@ -188,6 +215,8 @@
     .carrusel h4 {
         margin-bottom: 5px;
     }
+
+    /* FOOTER */ 
     .footer-suscripcion > div {
         margin: 40px 0;
     }

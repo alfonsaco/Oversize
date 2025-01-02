@@ -2,16 +2,12 @@
     font-family: 'Overpass';
     src: url(../Fuentes/Overpass-Regular.ttf);
 }
-@font-face {
-    font-family: 'Futura';
-    src: url(../Fuentes/Futura.ttf);
-}
 
 
 body{
     margin: 0;
     background-color: #fafafa;
-    font-family: 'Futura', 'Overpass', 'Poppins';
+    font-family: 'Poppins';
     letter-spacing: 2px;
 }
 * {
@@ -122,7 +118,7 @@ header{
     height: 100%;
     color: rgb(102, 102, 102);
     background-color: transparent;
-    font-family: 'Overpass', 'Poppins';
+    font-family: 'Poppins';
     text-transform: uppercase;
     font-weight: 600;
     padding-left: 25px;
@@ -253,7 +249,7 @@ input[type="search"]::-webkit-search-results-button {
 }
 .footer-suscripcion p {
     color: #fff;
-    font-family: 'Overpass','Poppins';
+    font-family: 'Poppins';
     font-size: 1.2em;
     font-weight: bold;
     margin: 0;
@@ -270,7 +266,7 @@ input[type="search"]::-webkit-search-results-button {
     height: 40px;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: 'Overpass', 'Poppins';
+    font-family: 'Poppins';
     background-color: transparent;
     border: 0;
     color: #e9e9e9;
@@ -284,7 +280,7 @@ input[type="search"]::-webkit-search-results-button {
     background-color: transparent;
     border: solid 2px #e9e9e9;
     color: #e9e9e9;
-    font-family: 'Overpass', 'Poppins';
+    font-family: 'Poppins';
     font-weight: bold;
     height: 40px;
     cursor: pointer;

@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function() {
             bola.classList.toggle("mover-bola");
             boton.classList.toggle("cambiar-color");
             if(textoBoton==true) {
-                texto.textContent="MODO CLARO";
+                texto.innerHTML="MODO CLARO&nbsp;&nbsp;";
                 textoBoton=false;
             } else {
                 texto.textContent="MODO OSCURO";
@@ -31,7 +31,7 @@ window.addEventListener("DOMContentLoaded", function() {
         bola.classList.add("mover-bola");
         boton.classList.add("cambiar-color");
         document.body.classList.add("dark-mode");
-        texto.textContent="MODO CLARO";
+        texto.innerHTML="MODO CLARO&nbsp;&nbsp;";
         textoBoton=false;
     }
 });

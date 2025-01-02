@@ -73,10 +73,11 @@ main {
     width: auto;
     height: auto;
     padding: 3px 15px;
+    padding-top: 5px;
     background-color: #000;
     color: #FFF;
+    font-family: 'Overpass', 'Poppins';
     font-size: 0.9vw;
-    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
