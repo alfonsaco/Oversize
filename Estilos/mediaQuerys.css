@@ -37,13 +37,30 @@
         grid-template-columns: repeat(2, minmax(80px, 1fr)) !important;
         grid-template-rows: repeat(2, 1fr);
     }
-
+    .imagenes-video-producto {
+        padding: 0% 5%;
+    }
+    .inicio-imagenes-producto {
+        height: 28vw;
+    }
+    .inicio-video-producto {
+        height: 30vw;
+    }
+    .carrusel {
+        padding: 0% 5%;
+    }
     main > h2 {
         font-size: 1.6em;
     }
     .carrusel > h4 {
         font-size: 1.5em;
         margin-bottom: 12px;
+    }
+
+    /* BUSCADOR */
+    .busqueda-realizada {
+        text-align: center !important;
+        font-size: 1.4em;
     }
 }
 
@@ -94,8 +111,14 @@
     .imagenes-video-producto {
         gap: 3.5vw;
     }
+
+    /* BUSCADOR */
     .no-hay-resultados {
-        width: 90%;
+        width: 90% !important;
+        height: auto !important;
+    }
+    .busqueda-realizada {
+        font-size: 1.2em;
     }
 
     /* FOOTER */

@@ -98,7 +98,6 @@ main {
 .inicio-imagenes-producto > a:hover .ver-todo {
     opacity: 1;
 }
-
 .inicio-video-producto {
     background-color: rgb(194, 236, 194);
     background-image: url(../Imágenes/biggie.gif);
