@@ -90,7 +90,7 @@ h2 {
     top: 20px;
     left: 20px;
 }
-.fa-heart.fa-solid {
+.producto .fa-heart.fa-solid {
     color: rgb(212, 63, 63);
     display: none;
 }
@@ -100,7 +100,7 @@ h2 {
 .seccion-producto-compra {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: row;
     padding: 50px 3% 0% 3%;
     gap: 35px;
@@ -129,21 +129,20 @@ h2 {
     font-size: 1.5em;
     text-transform: uppercase;
 }
-.div-contenido-compra p {
-    font-size: 1.1em;
+.div-contenido-compra > p {
+    font-size: 1em;
+    letter-spacing: 0px;
 }
-.color-producto-compra {
+.seccion-producto-compra .color-producto-compra {
     width: 35px;
     height: 35px;
     border-radius: 100%;
-    border: 2px solid #cccccc;
+    border: 2px solid #444444 !important; 
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 #precio-producto-compra {
-    margin-top: 3px;
-    margin-bottom: 15px;
-    font-size: 1.2em;
+    font-size: 1em;
     color: rgb(168, 25, 25);
 }
 #descripcion-producto-compra {
@@ -151,6 +150,9 @@ h2 {
 }
 #detalles-producto-compra  li {
     list-style-type: none;
+}
+#detalles-producto-compra b {
+    text-transform: uppercase;
 }
 
 /* Estilos de los botones de tallas de la ropa */ 
@@ -160,8 +162,10 @@ h2 {
     margin: 15px 0px 30px 0px;
 }
 .tallas div {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
+    font-size: .75em;
+    font-weight: bold;
     border: 1px solid #cccccc;
     display: flex;
     justify-content: center;
@@ -178,25 +182,50 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     width: 80%;
-    font-weight: bold;
     font-family: 'Overpass', 'Poppins';
     letter-spacing: 2px;
     border: 2px solid #000;
     outline: 3px solid #000;
 }
+.div-corazones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-corazones i {
+    font-size: 1.15em;
+}
+.div-corazones .fa-solid {
+    color: rgb(212, 63, 63);
+    scale: 0;
+    transition: .1s ease;
+}
+.div-corazones .fa-regular {
+    z-index: 20;
+    position: absolute;
+}
 .agregar-al-carrito {
     background-color: #000;
     color: #e7e7e7;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 .agregar-a-favoritos {
     background-color: #ffffff;
     border-color: transparent;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.agregar-a-favoritos p {
+    transition: .2s ease;
 }
 .agregar-al-carrito:hover {
     border-color: #FFF;
 }
-.agregar-a-favoritos:hover {
-    border-color: rgb(187, 187, 187);
+.agregar-a-favoritos:hover .fa-solid {
+    scale: 1;
+}
+.agregar-a-favoritos:hover p {
+    letter-spacing: 5px;
 }

@@ -86,13 +86,11 @@
         <!--Contenedor del producto seleccionado-->        
         <section class="seccion-producto-compra">
             <div class="div-imagen-compra">
-                <img src="" alt="" id="imagen-producto-compra">
+                <img alt="Imagen del producto" id="imagen-producto-compra">
             </div>
             <div class="div-contenido-compra">
                 <h4 id="nombre-producto-compra"></h4>
                 <p id="precio-producto-compra"></p>
-                <p id="descripcion-producto-compra"></p>
-                <p id="detalles-producto-compra"></p>
                 
                 <div class="color-producto-compra"></div>
                 <div class="tallas">
@@ -115,8 +113,15 @@
                     <p>AGREGAR AL CARRITO</p>
                 </button>
                 <button class="agregar-a-favoritos">
-                    <p><i class="fa-regular fa-heart"></i>&nbsp;&nbsp;AGREGAR A FAVORITOS</p>
+                    <div class="div-corazones">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <p>&nbsp;&nbsp;AGREGAR A FAVORITOS</p>
                 </button>
+
+                <p id="descripcion-producto-compra"></p>
+                <p id="detalles-producto-compra"></p>
             </div>
         </section>
         <!--Sugerencias de productos-->
