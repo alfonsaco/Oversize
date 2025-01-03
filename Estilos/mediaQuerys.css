@@ -37,6 +37,14 @@
         margin-bottom: 13px;
         font-size: 1em;
     }
+    /* Sugerencias */
+    .main-compra .sugerencias {
+        padding: 9vw 4% 1vw 4%;
+    }
+    .main-compra .sugerencias > h4 {
+        text-align: center;
+        font-size: 1.5em !important;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -55,14 +63,6 @@
     .contenedor-productos {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
     }
-    .carrusel .sugerencias-productos {
-        grid-template-columns: repeat(2, minmax(80px, 1fr)) !important;
-        grid-template-rows: repeat(2, 1fr);
-    }
-    .sugerencias .sugerencias-productos {
-        grid-template-columns: repeat(2, minmax(80px, 1fr)) !important;
-        grid-template-rows: repeat(2, 1fr);
-    }
     .imagenes-video-producto {
         padding: 0% 3.5%;
     }
@@ -72,9 +72,32 @@
     .inicio-video-producto {
         height: 30vw;
     }
+
+    /* SUGERENCIAS MAIN */
     .carrusel {
         padding: 0% 3.5%;
+        margin-top: 5vw;
     }
+    .carrusel .sugerencias-productos {
+        grid-template-columns: repeat(2, minmax(80px, 1fr)) !important;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .carrusel .producto a h4 {
+        font-size: 1em;
+    }
+    .carrusel .producto a > p {
+        font-size: .9em !important;
+    }
+
+    .producto p, .sugerencias .sugerencias-productos p {
+        font-size: .7em !important;
+    }
+
+    .sugerencias .sugerencias-productos {
+        grid-template-columns: repeat(2, minmax(80px, 1fr)) !important;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
     main > h2 {
         font-size: 1.6em;
     }
@@ -87,9 +110,6 @@
         font-size: 1.4em;
         top: 15px;
         left: 15px;
-    }
-    .producto p, .sugerencias .sugerencias-productos p {
-        font-size: .7em !important;
     }
     .producto h4.nombre-producto {
         font-size: 0.75em;
@@ -171,6 +191,12 @@
         margin-bottom: 13px;
         font-size: .9em;
     }
+    /* PÁGINA COMPRA PRODUCTOS */
+    /* Sugerencias */
+    .main-compra .sugerencias > h4 {
+        text-align: center;
+        font-size: 1.2em !important;
+    }
 
     /* BUSCADOR */
     .no-hay-resultados {
@@ -218,7 +244,7 @@
         margin-bottom: 8px;
     }
     .carrusel .sugerencias-productos {
-        gap: 10px;
+        gap: 15px;
     }
     .carrusel .item-sugerencia a {
         color: #272727;
@@ -227,18 +253,20 @@
         font-size: .6em;
         margin: 0;
     }
-    .carrusel .item-sugerencia a p {
-        position: relative;
-        bottom: 6px;
-    }
     main > h2 {
         font-size: 1.3em;
     }
-    .carrusel > h4 {
+    .carrusel .producto a > h4 {
         font-size: 1.2em;
     }
-    .carrusel h4 {
+    .carrusel > h4 {
         margin-bottom: 5px;
+    }
+
+    /* PÁGINA COMPRA PRODUCTOS */ 
+    /* Sugerencias */
+    .main-compra .sugerencias > h4 {
+        font-size: 1.1em !important;
     }
 
     /* FOOTER */ 
