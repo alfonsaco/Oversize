@@ -1,8 +1,10 @@
 <div align="center">
   <img src="https://github.com/alfonsaco/Oversize/blob/main/Imágenes/OversizeTrazo.png" alt="Descripción de la imagen" width="300px">
+  <br>
+  <h2>ENLACE A LA WEB: https://alfonsaco.github.io/Oversize/</h2>
 </div>
 
-<h2>ENLACE A LA WEB:</h2> **https://alfonsaco.github.io/Oversize/**
+
 
 <br><br>
 
@@ -27,6 +29,8 @@ La web funciona correctamente en los siguientes navegadores:
   [x] Bing
 
 En navegadores como **Tor** o **Samsung Internet** se pueden llegar a notar ligeros cambio en el espacio entre unos elementos y otros en las páginas de productos.</p>
+
+<br><br>
 
 ## 🚀 MEJORAS FUTURAS
 1. Agregar un carrito de compra
