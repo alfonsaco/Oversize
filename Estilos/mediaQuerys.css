@@ -88,24 +88,22 @@
     .carrusel .producto a > p {
         font-size: .9em !important;
     }
-
     .producto p, .sugerencias .sugerencias-productos p {
         font-size: .7em !important;
     }
-
     .sugerencias .sugerencias-productos {
         grid-template-columns: repeat(2, minmax(80px, 1fr)) !important;
         grid-template-rows: repeat(2, 1fr);
-    }
-    
-    main > h2 {
-        font-size: 1.6em;
     }
     .carrusel > h4 {
         font-size: 1.5em;
         margin-bottom: 12px;
     }
-    /* CONTENIDO DE LOS PRODUCTOS MOSTRADOS */
+    
+    /* PÁGINAS DE PRODUCTOS */ 
+    main > h2 {
+        font-size: 1.6em;
+    }
     .producto i.fa-heart {
         font-size: 1.4em;
         top: 15px;
@@ -114,6 +112,7 @@
     .producto h4.nombre-producto {
         font-size: 0.75em;
     }
+    
 
     /* BUSCADOR */
     .busqueda-realizada {
@@ -254,7 +253,8 @@
         margin: 0;
     }
     main > h2 {
-        font-size: 1.3em;
+        font-size: 1.2em;
+        text-align: center;
     }
     .carrusel .producto a > h4 {
         font-size: 1.2em;
