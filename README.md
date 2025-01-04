@@ -22,13 +22,13 @@
 
 ## 🧭 NAVEGADORES COMPATIBLES:
 La web funciona correctamente en los siguientes navegadores:
-  [x] Google
-  [x] Brave
-  [x] Opera
-  [x] Yahoo
-  [x] Bing
+  - [x] [**Google**](https://www.google.com/)
+  - [x] [**Brave**](https://brave.com/)
+  - [x] [**Opera**](https://www.opera.com/)
+  - [x] [**Yahoo**](https://www.yahoo.com/)
+  - [x] [**Bing**](https://www.bing.com/)
 
-En navegadores como **Tor** o **Samsung Internet** se pueden llegar a notar ligeros cambio en el espacio entre unos elementos y otros en las páginas de productos.</p>
+En navegadores como [**Tor**](https://www.torproject.org/) o **Samsung Internet** se pueden llegar a notar ligeros cambio en el espacio entre unos elementos y otros en las páginas de productos.</p>
 
 <br><br>
 
