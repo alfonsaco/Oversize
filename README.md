@@ -4,21 +4,19 @@
   <h2>ENLACE A LA WEB: https://alfonsaco.github.io/Oversize/</h2>
 </div>
 
-<br>
-
 ## :tshirt: DESCRIPCIÓN DE LA WEB
 **Oversize** es un E-Commerce ficticio que simula una marca de ropa de tallaje Oversize. Esta empresa está basada en la estética **Underground** de los 90s
 
-<br><br>
+<br>
 
 ## :scroll: LENGUAJES Y TECNOLOGÍAS UTILIZADAS
-La página web fue creada con HTML, CSS y JavaScript, utilizando Visual Studio Code. No dispone de base de datos, ya que los productos y sus características están en un JSON, y se añaden a través de JS.
+La página web fue creada con HTML, CSS y JavaScript, utilizando Visual Studio Code. No dispone de base de datos, ya que los productos y sus características están en un JSON, y se añaden a través de JS.<br>
 Ofrece también la posibilidad de cambiar el aspecto de la página, eligiendo entre Modo Claro y Osucro, según las preferencias del usuario. Además, tiene un diseño responsive, de manera que se puede utilizara en diferentes dispositivos.
 <div align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,vscode,ps" alt="Tecnologías utilizadas">
 </div>
 
-<br><br>
+<br>
 
 ## 🧭 NAVEGADORES COMPATIBLES:
 La web funciona correctamente en los siguientes navegadores:
@@ -30,7 +28,7 @@ La web funciona correctamente en los siguientes navegadores:
 
 En navegadores como [**Tor**](https://www.torproject.org/) o **Samsung Internet** se pueden llegar a notar ligeros cambio en el espacio entre unos elementos y otros en las páginas de productos.</p>
 
-<br><br>
+<br>
 
 ## 🚀 MEJORAS FUTURAS
 1. Agregar un carrito de compra
