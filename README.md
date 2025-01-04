@@ -2,19 +2,17 @@
   <img src="https://github.com/alfonsaco/Oversize/blob/main/Imágenes/OversizeTrazo.png" alt="Descripción de la imagen" width="300px">
 </div>
 
-<hr>
-<p><b>ENLACE A LA WEB: </b>https://alfonsaco.github.io/Oversize/</p>
+# ENLACE A LA WEB: </b>https://alfonsaco.github.io/Oversize/</p>
 
-<h3>:tshirt: DESCRIPCIÓN DE LA WEB</h3>
+## :tshirt: DESCRIPCIÓN DE LA WEB
 <p><b>Oversize</b> es un E-Commerce ficticio que simula una marca de ropa de tallaje Oversize. Esta empresa está basada en la estética Underground de los 90s</p>
 
-<hr>
-<h3>:scroll: LENGUAJES Y TECNOLOGÍAS UTILIZADAS</h3>
+##:scroll: LENGUAJES Y TECNOLOGÍAS UTILIZADAS
 <div align="center">
   [![My Skills](https://skillicons.dev/icons?i=html,css,js,vscode,ps)](https://skillicons.dev)  
 </div>
 
-<h4>NAVEGADORES:</h4>
+# NAVEGADORES:
 <p>La web funciona correctamente en los siguientes navegadores:</p>
 <ul>
   <li>Google</li>
