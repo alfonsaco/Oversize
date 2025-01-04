@@ -138,18 +138,9 @@
     .dark-mode .header-logo img {
         width: 110px;
     }
-
-    /* MAIN */
-    .sugerencias h4:first-child  {
-        font-size: 1.7em;
-    }
     
-    .seccion-producto-compra {
-        gap: 20px !important;
-    }
-    .carrusel .item-sugerencia a {
-        font-size: .7em;
-    }
+
+    /* INDEX */
     main > h2 {
         font-size: 1.4em;
     }
@@ -175,6 +166,13 @@
     .imagenes-video-producto {
         gap: 3.5vw;
     }
+    /* Sugerencias Index */
+    .carrusel .item-sugerencia a {
+        font-size: .7em;
+    }
+    .carrusel .item-sugerencia a > p {
+        font-size: 1em !important;
+    }
 
     /* PÁGINAS DE PRODUCTOS */ 
     .contenedor-productos {
@@ -190,11 +188,18 @@
         margin-bottom: 13px;
         font-size: .9em;
     }
+    .seccion-producto-compra {
+        gap: 20px !important;
+    }
+    
     /* PÁGINA COMPRA PRODUCTOS */
     /* Sugerencias */
     .main-compra .sugerencias > h4 {
         text-align: center;
         font-size: 1.2em !important;
+    }
+    .sugerencias h4:first-child  {
+        font-size: 1.7em;
     }
 
     /* BUSCADOR */

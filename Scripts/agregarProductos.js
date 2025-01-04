@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function () {
     contenedorRopa.innerHTML="";
 
     // RUTA LOCAL: "../Imágenes/Ropa/ropa.json"
-    fetch("../Imágenes/Ropa/ropa.json").then(response => response.json()).then(data => {
+    fetch("/Oversize/Imágenes/Ropa/ropa.json").then(response => response.json()).then(data => {
 
         if(tipoProducto != "todo") {
             // Filtrar los productos, y seleccionar el producto necesario para cada página
@@ -21,10 +21,10 @@ window.addEventListener("DOMContentLoaded", function () {
                          img: ${producto.ruta}
                 */       
                 contenido=`<div class="producto">
-                                <a href="../Páginas/compraProducto.html?id=${producto.id}">
+                                <a href="/Oversize/Páginas/compraProducto.html?id=${producto.id}">
                                     <i class="fa-regular fa-heart"></i>
                                     <i class="fa-solid fa-heart"></i>
-                                    <img src="/${producto.ruta}" alt="${producto.descripcion}">
+                                    <img src="/Oversize/${producto.ruta}" alt="${producto.descripcion}">
                                     <h4 class="nombre-producto">${producto.nombre}</h4>
                                     <div class="productos-datos">
                                         <p>${producto.precio}€</p>
@@ -41,10 +41,10 @@ window.addEventListener("DOMContentLoaded", function () {
                          img: ${producto.ruta}
                 */   
                 contenido=`<div class="producto">
-                                <a href="../Páginas/compraProducto.html?id=${producto.id}">
+                                <a href="/Oversize/Páginas/compraProducto.html?id=${producto.id}">
                                     <i class="fa-regular fa-heart"></i>
                                     <i class="fa-solid fa-heart"></i>
-                                    <img src="/${producto.ruta}" alt="${producto.descripcion}">
+                                    <img src="/Oversize/${producto.ruta}" alt="${producto.descripcion}">
                                     <h4 class="nombre-producto">${producto.nombre}</h4>
                                     <div class="productos-datos">
                                         <p>${producto.precio}€</p>
